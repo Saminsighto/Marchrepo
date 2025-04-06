@@ -14,8 +14,10 @@
         "tab": "Guides",
         "groups": [
           {
+            
             "group": "Get Started",
             "pages": [
+              "Comprehensive Guide to Setting Up Your AI Chat Agent",
               "how-to-create-and-manage-data-sources",
               "comprehensive-guide-to-ai-voice-agent",
               "quickstart",
