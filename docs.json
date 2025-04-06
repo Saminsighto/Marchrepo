@@ -11,9 +11,7 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
-        "groups": [
-          {
+        "tab": "Guides"
             "group": "Get Started",
             "pages": [
               "How to Create and Manage Data Sources in Insighto.ai",
