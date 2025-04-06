@@ -16,6 +16,7 @@
           {
             "group": "Get Started",
             "pages": [
+              "How to Create and Manage Data Sources in Insighto.ai",
               "Comprehensive Guide to Setting Up Your AI Voice Agent",
               "quickstart",
               "development"
