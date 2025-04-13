@@ -18,10 +18,12 @@
             "group": "Get Started",
             "pages": [
               "Comprehensive Guide to Setting Up Your AI Chat Agent",
-              "how-to-create-and-manage-data-sources",
+              "How to create and manage data sources",
               "Setting Up Twilio for AI Phone Agents",
-              "comprehensive-guide-to-ai-voice-agent",
+              "Comprehensive guide to ai voice agent",
               "Creating Your Widget to Respond to GHL Messages",
+              "Creating a WhatsApp Bot with Insighto.ai",
+              ""Setting Up the Messenger Widget",
               "quickstart",
               "development"
             ]
