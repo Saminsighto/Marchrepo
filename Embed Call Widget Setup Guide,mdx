@@ -1,0 +1,138 @@
+# 📞 Embed Call Widget Setup Guide
+
+The **Embed Call Widget** allows you to collect visitor phone numbers from your website and automatically initiate a call using an AI agent. This feature helps streamline customer communication by automating call responses and forwarding as needed — all while maintaining a personal touch.
+
+---
+
+## 💡 How It Works
+
+When a visitor fills out the embedded call form on your website:
+
+1. An **AI Assistant** immediately calls the user on their submitted number.
+2. The Assistant either:
+   - Engages with the caller to answer questions, or
+   - Screens the call before forwarding it to your actual phone number.
+
+This ensures **instant response**, **lead qualification**, and **better customer experience**.
+
+---
+
+## 🧰 Prerequisites
+
+Before you begin, you'll need to:
+
+- Create a **Twilio account**
+- Set up a **Form** in Insighto.ai
+- Build an **AI Assistant**
+- Create a **Call Widget**
+- Embed the widget on your website
+
+---
+
+## 🔧 Step-by-Step Setup Guide
+
+### 1. Set Up Your Twilio Account
+
+1. Go to [Twilio](https://www.twilio.com) and sign up.
+2. Purchase a Twilio phone number that will be used to place calls.
+3. Navigate to your Twilio Console to retrieve:
+   - **Account SID**
+   - **Auth Token**
+
+> 📘 Follow this [detailed Twilio setup guide](#) for full instructions.
+
+---
+
+### 2. Create a Form in Insighto.ai
+
+This form will collect visitor details like their phone number.
+
+1. Go to **AI Agents > Forms**
+2. Click **Add a Form**
+3. Add fields such as:
+   - `Name`
+   - `Phone Number`
+   - `Reason for Call`
+4. Save your form
+
+> 📘 Need help? Follow our [Form Creation Guide](#) (Steps 1–4).
+
+---
+
+### 3. Create an AI Assistant
+
+This Assistant will handle the phone calls.
+
+#### Key Configuration Steps:
+
+- **Voice Selection**: Choose a voice for your AI assistant (male or female, tone, etc.)
+- **Prompt Creation**: Write a clear and friendly prompt. This will guide how the AI handles conversations with callers.
+
+
+> 📘 For detailed setup, see [AI Assistant Guide](#) (Steps 2–8).
+
+---
+
+### 4. Create the Embed Call Widget
+
+1. Go to **AI Agents > Widgets**
+2. Click **Add a Widget**
+3. Fill in the details:
+   - **Provider**: Select `Embedded Form`
+   - **Widget Type**: Choose `Embeded Form`
+   - **Name**: Give it a clear name (e.g., "Website Callback Widget")
+   - **Description**: Optional internal reference
+4. Assign the **AI Assistant** you created
+5. Select the **Form** created in Step 2
+6. Specify the **Telephone Field** (i.e., which form field contains the phone number)
+7. Click **Submit**
+
+---
+
+### 5. Generate the Widget Code
+
+After the widget is created:
+
+1. Navigate to the **Operations** tab of the widget
+2. Click **Get Code**
+3. Copy the generated **HTML embed code**
+
+---
+
+### 6. Add the Widget to Your Website
+
+1. Open your website’s CMS (e.g., WordPress, Wix, Shopify)
+2. Access the page where you'd like to embed the form
+3. Paste the copied embed code in the appropriate place in the HTML
+4. Save and publish the changes
+
+> 💡 You can embed this on any landing page, contact page, or popup modals.
+
+---
+
+### 7. Test the Embed Call Feature
+
+Once your widget is live:
+
+- Go to the webpage and submit a test form
+- Ensure:
+   - The AI Assistant places a call to the test number
+   - The call flows according to your Assistant prompt
+   - If applicable, the call is forwarded to your real phone
+
+---
+
+## 🚀 You're All Set!
+
+With the **Embed Call Widget**, you can now:
+
+- Automatically call leads as they arrive
+- Screen or handle calls using AI
+- Improve customer response times and engagement
+
+---
+
+## 🧠 Need Help?
+
+If you face any issues or have questions, please contact [Insighto.ai Support](mailto:support@insighto.ai) or visit our Help Center for more resources.
+
