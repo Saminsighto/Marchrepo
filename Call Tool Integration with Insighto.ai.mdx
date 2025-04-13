@@ -1,0 +1,101 @@
+# 📞 Call Tool Integration with Insighto.ai
+
+**Insighto.ai’s AI Assistants** seamlessly integrate with the **Call Tool**, enabling you to manage incoming calls intelligently. With this tool, your Assistant can:
+
+- 🔁 **Forward the Call** — Route the call to a human representative.
+- ❌ **Disconnect the Call** — End the call when the conversation is complete.
+
+This setup is ideal for businesses looking to automate basic call handling while still offering human support when needed.
+
+---
+
+## ✅ Prerequisites
+
+Before you begin, make sure you have the following:
+
+- A valid **Insighto.ai account** with admin access
+- An **active phone service provider** account compatible with Insighto.ai (e.g., Twilio)
+
+---
+
+## ⚙️ Setting Up the Call Tool
+
+### Step 1: Access the Call Tool
+
+1. Log in to your **Insighto.ai dashboard**
+2. Navigate to **AI Agents > Tools**
+3. Under **Call Tool**, click **Set Up**
+
+---
+
+### Step 2: Start a New Integration
+
+1. A **"Setup Your Tool"** dialog box will appear.
+2. Click **Start New** to begin creating your configuration.
+
+---
+
+### Step 3: Name Your Integration
+
+1. Enter a **unique name** for this call tool configuration (e.g., “Support Call Forwarding”).
+2. Click **Create** to proceed.
+
+---
+
+### Step 4: Select the Call Function
+
+Choose the purpose of the tool:
+
+- `Forward the Call`
+- `Disconnect the Call`
+
+After selecting, click **Save**.
+
+---
+
+### Step 5: Provide Forwarding Number (If Applicable)
+
+If you selected **Forward the Call**, you'll need to:
+
+- Enter the **call forwarding number** (e.g., your support team's direct line)
+- Click **Finish** to complete the setup
+
+Your Call Tool is now configured!
+
+---
+
+## 🔗 Linking the Call Tool to Your AI Assistant
+
+After creating the Call Tool, it must be linked to an **AI Assistant** so it can be used during conversations.
+
+### Step 1: Go to AI Assistants
+
+1. Navigate to **AI Agents > Assistants**
+2. Either:
+   - Click **Add an Assistant** if you're creating a new one  
+   - Or click **Edit Assistant** on an existing Assistant
+
+---
+
+### Step 2: Connect the Tool
+
+1. Inside the assistant settings, go to the **Tools** section
+2. Click **Connect Tools**
+3. Select **Call Tool** from the list
+4. Choose the **Tool Configuration Name** you created earlier
+5. Click **Connect**
+
+The tool will now appear in the list of connected tools for the Assistant.
+
+---
+
+## 🧠 Triggering the Call Tool via Prompt
+
+Now you need to instruct your AI Assistant on **when** and **how** to use the Call Tool using prompt logic.
+
+1. Navigate to the **Prompt** section of the Assistant
+2. Add conditional instructions like these:
+
+### 🔁 Forward the Call Instruction Example:
+```plaintext
+If the user requests to speak with a human or mentions a specific person (e.g., "I want to speak to John"), forward the call using the available tool.
