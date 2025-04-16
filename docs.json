@@ -55,7 +55,7 @@
           },
           {
             "group": "Endpoints",
-            "openai": "https://api.insighto.ai/api/v1/openapi.json"
+            "openapi": "https://api.insighto.ai/api/v1/openapi.json"
           }
         ]
       },
