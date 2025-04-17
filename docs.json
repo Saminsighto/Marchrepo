@@ -45,24 +45,8 @@
             "openapi": "https://api.insighto.ai/api/v1/openapi.json"
           }
         ]
-      },
-      {
-        "tab": "Pages",
-        "groups": [
-          {
-            "group": "Standalone Pages",
-            "pages": [
-              "faq",
-              "changelog",
-              "terms-of-service"
-            ]
-          }
-        ]
       }
     ],
-    "global": {
-      
-    }
   },
   "logo": {
     "light": "https://insighto.ai/wp-content/uploads/2023/09/Insighto-ai-white-logo.png",
