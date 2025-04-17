@@ -1,13 +1,13 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Insighto Docs",
+  "name": "Insighto.ai Docs",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
     "dark": "#15803D"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "https://insighto.ai/wp-content/uploads/2023/09/Fav-Icon-Insighto.AI_-300x300.png",
   "navigation": {
     "tabs": [
       {
@@ -15,31 +15,25 @@
         "groups": [
           {
             
-            "group": "Get Started",
+            "group": "Comprehensive Guides",
             "pages": [
-              "Comprehensive Guide to Setting Up Your AI Chat Agent",
-              "How to create and manage data sources",
-              "Setting Up Twilio for AI Phone Agents",
-              "Comprehensive guide to ai voice agent",
-              "Creating Your Widget to Respond to GHL Messages",
-              "Creating a WhatsApp Bot with Insighto.ai",
-              "Embed Call Widget Setup Guide",
-              "Setting Up the Telegram Widget in Insighto.ai",
-              "Setting Up the Messenger Widget",
-              " Call Tool Integration with Insighto.ai",
-              "quickstart",
-              "development"
-            ]
-          },
+              "Comprehensive-Guide-to-Setting-Up-Your-AI-Chat-Agent",
+              "Comprehensive-Guide-to-AI-Voice-Agent"
+            ]},
           {
-            "group": "Essentials",
+            "group": "Widgets",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "Setting-Up-Twilio-for-AI-Phone-Agents",
+              "Embed-Call-Widget-Setup-Guide",
+              "Creating-Your-Widget-to-Respond-to-GHL-Messages",
+              "Creating-a-WhatsApp-Bot-with-Insighto.ai",
+              "Setting-Up-the-Telegram-Widget-in-Insighto.ai",
+              "Setting-Up-the-Messenger-Widget"]},
+              
+          {
+            "group": "Tools",
+            "pages": [
+              "Call-Tool-Integration-with-Insighto.ai"
             ]
           }
         ]
@@ -48,59 +42,16 @@
         "tab": "API Reference",
         "groups": [
           {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Pages",
-        "groups": [
-          {
-            "group": "Standalone Pages",
-            "pages": [
-              "faq",
-              "changelog",
-              "terms-of-service"
-            ]
+            "group": "Endpoints",
+            "openapi": "https://superb-coyote-daily.ngrok-free.app/api/v1/openapi.json"
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "dark": "https://insighto.ai/wp-content/uploads/2023/09/Insighto-ai-white-logo.png",
+    "light": "https://insighto.ai/wp-content/uploads/2023/09/Insighto.AI-Logo-Blue-Bold.webp"
   },
   "navbar": {
     "links": [
@@ -112,7 +63,7 @@
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://dashboard.insighto.ai"
+      "href": "https://app.insighto.ai"
     }
   },
   "footer": {
