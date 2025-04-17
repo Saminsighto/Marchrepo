@@ -34,12 +34,6 @@
         "tab": "API Reference",
         "groups": [
           {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
             "group": "Endpoints",
             "openapi": "https://superb-coyote-daily.ngrok-free.app/api/v1/openapi.json"
           }
