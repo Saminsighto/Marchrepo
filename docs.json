@@ -15,16 +15,24 @@
         "groups": [
           {
             
-            "group": "Get Started",
+            "group": "Comprehensive Guides",
             "pages": [
               "Comprehensive-Guide-to-Setting-Up-Your-AI-Chat-Agent",
+              "Comprehensive-Guide-to-AI-Voice-Agent"
+            ]},
+          {
+            "group": "Widgets",
+            "pages": [
               "Setting-Up-Twilio-for-AI-Phone-Agents",
-              "Comprehensive-Guide-to-AI-Voice-Agent",
+              "Embed-Call-Widget-Setup-Guide",
               "Creating-Your-Widget-to-Respond-to-GHL-Messages",
               "Creating-a-WhatsApp-Bot-with-Insighto.ai",
-              "Embed-Call-Widget-Setup-Guide",
               "Setting-Up-the-Telegram-Widget-in-Insighto.ai",
-              "Setting-Up-the-Messenger-Widget",
+              "Setting-Up-the-Messenger-Widget"]},
+              
+          {
+            "group": "Tools",
+            "pages": [
               "Call-Tool-Integration-with-Insighto.ai"
             ]
           }
