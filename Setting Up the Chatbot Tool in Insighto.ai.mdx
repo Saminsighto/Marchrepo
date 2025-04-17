@@ -1,0 +1,85 @@
+# 🤖 Setting Up the Chatbot Tool in Insighto.ai
+
+The **Chatbot Tool** in Insighto.ai integrates seamlessly with **AI Assistants**, allowing them to respond to queries based on your **Knowledge Base** and other connected **data sources**. This ensures your assistant can deliver accurate, relevant, and up-to-date responses to your customers.
+
+> 💡 **Note:** The Chatbot Tool must be enabled **if your Assistant uses any other tools** (e.g., Call Tool, API Tool). This ensures that the chatbot continues to respond to general queries even while other tools are in use.
+
+---
+
+## ✅ Prerequisites
+
+Before setting up the Chatbot Tool, ensure the following:
+
+- You have an **Insighto.ai account** with admin access
+- You have a **Knowledge Base** or connected **data sources**
+- An **AI Assistant** is created (or is ready to be created)
+
+---
+
+## ⚙️ Setting Up the Chatbot Tool
+
+### Step 1: Access the Tools Section
+
+1. Log in to your Insighto.ai dashboard
+2. Navigate to **AI Agents > Tools** from the sidebar
+3. Locate the **Chatbot Tool**
+4. Click the **Set Up** button to begin
+
+---
+
+### Step 2: Start a New Tool Configuration
+
+1. A dialog box titled **Setup Your Tool** will appear
+2. Click **Start New** to create a new configuration
+
+---
+
+### Step 3: Name Your Integration
+
+1. Enter a **recognizable name** for this integration (e.g., “Knowledge Bot”)
+2. Click **Create**
+
+---
+
+### Step 4: Select the Function
+
+1. Choose the function:
+   - ✅ **Fetch information from data sources or knowledge base**
+2. Click **Save** to finalize this step
+
+---
+
+## 🔗 Linking the Chatbot Tool to Your Assistant
+
+Now that you've configured the tool, link it to your Assistant.
+
+### Step 1: Go to AI Assistants
+
+1. Navigate to **AI Agents > Assistants**
+2. Either:
+   - Click **Add an Assistant** to create a new one
+   - Or click **Edit Assistant** to update an existing one
+
+---
+
+### Step 2: Connect the Chatbot Tool
+
+1. In the Assistant settings, go to the **Tools** section
+2. Click **Connect Tools**
+3. From the list, choose **Chatbot Tool**
+4. Select the configuration name you created earlier
+5. Click **Connect**
+
+The tool will now appear under your Assistant’s connected tools.
+
+---
+
+## 🧠 Writing the Prompt to Trigger the Chatbot Tool
+
+To ensure your Assistant knows when to use this tool, set up a prompt.
+
+1. Navigate to the **Prompt** section of your Assistant
+2. Add this instruction:
+
+```plaintext
+Respond to user queries strictly based on the information from the data source linked using the available tool.
