@@ -17,7 +17,7 @@
             
             "group": "Get Started",
             "pages": [
-              "Comprehensive Guide to Setting Up Your AI Chat Agent",
+              "Comprehensive-Guide-to-Setting-Up-Your-AI-Chat-Agent",
               "How to create and manage data sources",
               "Setting Up Twilio for AI Phone Agents",
               "Comprehensive guide to ai voice agent",
@@ -49,8 +49,8 @@
     ]
   },
   "logo": {
-    "light": "https://insighto.ai/wp-content/uploads/2023/09/Insighto-ai-white-logo.png",
-    "dark": "https://insighto.ai/wp-content/uploads/2023/09/Insighto-Ai-White2-1.png"
+    "dark": "https://insighto.ai/wp-content/uploads/2023/09/Insighto-ai-white-logo.png",
+    "light": "https://insighto.ai/wp-content/uploads/2023/09/Insighto.AI-Logo-Blue-Bold.webp"
   },
   "navbar": {
     "links": [
