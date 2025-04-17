@@ -7,7 +7,7 @@
     "light": "#07C983",
     "dark": "#15803D"
   },
-  "favicon": "https://insighto.ai/wp-content/uploads/2023/09/Fav-Icon-Insighto.AI_-300x300.png",
+  "favicon": "https://insighto.ai/wp-content/uploads/2023/09/Fav-Icon-Insighto.AI_-100x100.png",
   "navigation": {
     "tabs": [
       {
@@ -68,9 +68,8 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/insighto",
-      "github": "https://github.com/insighto",
-      "linkedin": "https://linkedin.com/company/insighto"
+      "x": "https://x.com/insightoai",
+      "linkedin": "https://www.linkedin.com/company/insighto-ai/"
     }
   }
 }
