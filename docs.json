@@ -1,13 +1,13 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Insighto.ai Docs",
+  "name": "Insighto Docs",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
     "dark": "#15803D"
   },
-  "favicon": "https://insighto.ai/wp-content/uploads/2023/09/Fav-Icon-Insighto.AI_-300x300.png",
+  "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
@@ -26,7 +26,20 @@
               "Embed Call Widget Setup Guide",
               "Setting Up the Telegram Widget in Insighto.ai",
               "Setting Up the Messenger Widget",
-              "Call Tool Integration with Insighto.ai"
+              "Call Tool Integration with Insighto.ai",
+              "quickstart",
+              "development"
+            ]
+          },
+          {
+            "group": "Essentials",
+            "pages": [
+              "essentials/markdown",
+              "essentials/code",
+              "essentials/images",
+              "essentials/settings",
+              "essentials/navigation",
+              "essentials/reusable-snippets"
             ]
           }
         ]
@@ -45,12 +58,44 @@
             "openapi": "https://api.insighto.ai/api/v1/openapi.json"
           }
         ]
+      },
+      {
+        "tab": "Pages",
+        "groups": [
+          {
+            "group": "Standalone Pages",
+            "pages": [
+              "faq",
+              "changelog",
+              "terms-of-service"
+            ]
+          }
+        ]
       }
-    ]
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Documentation",
+          "href": "https://mintlify.com/docs",
+          "icon": "book-open-cover"
+        },
+        {
+          "anchor": "Community",
+          "href": "https://mintlify.com/community",
+          "icon": "slack"
+        },
+        {
+          "anchor": "Blog",
+          "href": "https://mintlify.com/blog",
+          "icon": "newspaper"
+        }
+      ]
+    }
   },
   "logo": {
-    "light": "https://insighto.ai/wp-content/uploads/2023/09/Insighto-ai-white-logo.png",
-    "dark": "https://insighto.ai/wp-content/uploads/2023/09/Insighto-Ai-White2-1.png"
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
   },
   "navbar": {
     "links": [
@@ -62,7 +107,7 @@
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://app.insighto.ai"
+      "href": "https://dashboard.insighto.ai"
     }
   },
   "footer": {
