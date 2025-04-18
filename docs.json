@@ -15,7 +15,7 @@
         "groups": [
           {
             
-            "group": "Comprehensive Guides",
+            "group": "Quick Starts",
             "pages": [
               "Comprehensive-Guide-to-AI-Voice-Agent",
               "Comprehensive-Guide-to-Setting-Up-Your-AI-Chat-Agent"
@@ -43,7 +43,7 @@
         "groups": [
           {
             "group": "Endpoints",
-            "openapi": "https://superb-coyote-daily.ngrok-free.app/api/v1/openapi.json"
+            "openapi": "https://api.insighto.ai/api/v1/openapi.json"
           }
         ]
       }
