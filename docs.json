@@ -35,9 +35,18 @@
             "pages": [
               "Call-Tool-Integration-with-Insighto.ai"
             ]
+          },
+
+          {
+            "group": "Agency",
+            "pages": [
+              "Getting Started with Your Insighto Agency Plan"
+              
+            ]
           }
         ]
       },
+      
       {
         "tab": "API Reference",
         "groups": [
@@ -46,6 +55,7 @@
             "openapi": "https://superb-coyote-daily.ngrok-free.app/api/v1/openapi.json"
           }
         ]
+        
       }
     ]
   },
