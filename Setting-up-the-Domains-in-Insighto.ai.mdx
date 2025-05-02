@@ -1,0 +1,73 @@
+# Setting up the Domains in Insighto.ai
+
+Configure your custom domains for the agency dashboard, chatbot, and API to ensure a fully white-labeled experience. This includes pointing your DNS to the correct records and securing your domains with SSL.
+
+## Understanding Domain Types and How to Set Them Up
+
+Before setting up, it's important to understand the three domains used in white labeling—App, API, and Chatbot—as they route users and requests under your brand.
+
+### 1. App Domain  
+This is the domain where your users will access the white-labeled web application (e.g., app.yourdomain.com). It represents the front-end of your platform under your branding.
+
+**Choose a Domain:**  
+Pick a domain provider (e.g., GoDaddy, Namecheap) and buy your desired domain.
+
+**Set Up DNS:**
+
+- Decide on your subdomain (e.g., app.yourdomain.com).
+- Log in to your domain provider and go to the DNS management section.
+- Add an A record with the following details:  
+  - Type: A  
+  - Name: app  
+  - Value: 57.151.120.174
+
+### 2. API Domain  
+This domain is used to route all API requests from your white-labeled application (e.g., api.yourdomain.com). It ensures your white label stays consistent when backend services are called.
+
+**Purchase API Domain:**  
+Buy a subdomain like api.yourdomain.com and make sure it’s set up correctly under your main domain.
+
+**Set Up DNS:**
+
+- Log in to your domain provider’s dashboard and navigate to DNS management.
+- Add an A record with the following details:  
+  - Type: A  
+  - Name: api  
+  - Value: 57.151.120.174
+
+### 3. Chatbot Domain  
+This is the domain from which your embedded chatbot widget or standalone bot is served (e.g., cdn.yourdomain.com). It allows you to host the chatbot under your own brand for seamless customer experiences.
+
+**Purchase Chatbot Domain:**  
+Buy a subdomain like chatbot.yourdomain.com.
+
+**Set Up DNS:**
+
+- Log in to your domain provider’s dashboard and go to DNS settings.
+- Add an A record with the following details:  
+  - Type: A  
+  - Name: chatbot  
+  - Value: 172.174.188.46
+
+---
+
+## Steps to Configure Domains in Insighto.ai
+
+### 1  
+Click on **Manage Agency**
+
+### 2  
+Click on **Domain**
+
+### 3  
+### Enter Your Domains
+
+- **App Domain:** Enter the subdomain you configured for your app (e.g., app.yourdomain.com).
+- **API Domain:** Enter the subdomain you configured for your API (e.g., api.yourdomain.com).
+- **Chatbot Domain:** Enter the subdomain you configured for your chatbot (e.g., cdn.yourdomain.com).
+
+### 4  
+Click on **Submit**  
+The platform will check if your DNS records are set up correctly.
+
+> ℹ️ **Note:** DNS changes may take up to 24 hours to propagate, though it's often much faster.
