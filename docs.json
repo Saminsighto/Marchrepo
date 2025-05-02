@@ -33,15 +33,16 @@
           {
             "group": "Tools",
             "pages": [
-              "Call-Tool-Integration-with-Insighto.ai",
-              "Setup-Branding-in-Insighto.ai",
+              "Call-Tool-Integration-with-Insighto.ai"
+              
             ]
           },
 
           {
             "group": "Agency",
             "pages": [
-              "Getting-Started-with-Your-Insighto-Agency-Plan"
+              "Getting-Started-with-Your-Insighto-Agency-Plan",
+              "Setup-Branding-in-Insighto.ai"
               
             ]
           }
