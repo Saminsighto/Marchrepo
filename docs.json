@@ -7,7 +7,7 @@
     "light": "#07C983",
     "dark": "#15803D"
   },
-  "favicon": "https://insighto.ai/wp-content/uploads/2023/09/Fav-Icon-Insighto.AI_-300x300.png",
+  "favicon": "https://insighto.ai/wp-content/uploads/2023/09/Fav-Icon-Insighto.AI_-100x100.png",
   "navigation": {
     "tabs": [
       {
@@ -15,10 +15,10 @@
         "groups": [
           {
             
-            "group": "Comprehensive Guides",
+            "group": "Quick Starts",
             "pages": [
-              "Comprehensive-Guide-to-Setting-Up-Your-AI-Chat-Agent",
-              "Comprehensive-Guide-to-AI-Voice-Agent"
+              "Comprehensive-Guide-to-AI-Voice-Agent",
+              "Comprehensive-Guide-to-Setting-Up-Your-AI-Chat-Agent"
             ]},
           {
             "group": "Widgets",
@@ -52,7 +52,7 @@
         "groups": [
           {
             "group": "Endpoints",
-            "openapi": "https://superb-coyote-daily.ngrok-free.app/api/v1/openapi.json"
+            "openapi": "https://api.insighto.ai/api/v1/openapi.json"
           }
         ]
         
@@ -78,9 +78,8 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/insighto",
-      "github": "https://github.com/insighto",
-      "linkedin": "https://linkedin.com/company/insighto"
+      "x": "https://x.com/insightoai",
+      "linkedin": "https://www.linkedin.com/company/insighto-ai/"
     }
   }
 }
