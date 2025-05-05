@@ -4,14 +4,17 @@ In this guide, we walk you through the process of integrating Stripe with Insigh
 
 ---
 
-### 1  
-Click on **Manage Agency**
+ 1.  Click on **Manage Agency**
 
-### 2  
-Click on **Rebilling**
+![alt](images/Stripe/1.png)
 
-### 3  
-### Choose Your Billing Method
+ 2.  Click on **Rebilling**
+
+ ![alt](images/Stripe/2.png)
+
+ 3.  Choose Your Billing Method
+
+ ![alt](images/Stripe/3.png)
 
 Select how you'd like to handle customer billing. You can either:
 
@@ -20,11 +23,11 @@ Select how you'd like to handle customer billing. You can either:
 
 **In this guide we will use Stripe as Billing Method**
 
-### 4  
-Click on **Submit**
+ 4.  Click on **Submit**
 
-### 5  
-### Enable Usage Billing via Main Wallet
+ ![alt](images/Stripe/4.png)
+
+ 5. Enable Usage Billing via Main Wallet
 
 Allow your customers’ consumption usage (LLM, Voice, and Speech Recognition) to be billed through your main account wallet.  
 This enables you to purchase credits from Insighto at standard rates ([Article here](#)), calculate your own markup, and offer them as part of your pricing plans.
@@ -33,18 +36,21 @@ This enables you to purchase credits from Insighto at standard rates ([Article h
 
 If you prefer to use your own API keys and bypass purchasing credits from Insighto, follow this [BYOK guide](#) to set up your API keys.
 
+![alt](images/Stripe/5.png)
+
 🔑 **Note:** This option allows you to use your own keys for processing instead of using platform credits.  
 **PS:** Keep in mind that with BYOK, not all provider keys may be supported at this time.
 
-### 6  
-### Connect Your Stripe Account
+ 6.  Connect Your Stripe Account
 
 To integrate Stripe with Insighto.ai, you'll need to generate and input your Stripe API key.  
 Follow the steps mentioned [here](#) to generate your secret key.
 
-### 7  
-Click on **Submit & Set Webhook** button
+![alt](images/Stripe/6.png)
 
+ 7.  Click on **Submit & Set Webhook** button
+
+![alt](images/Stripe/7.png)
 ---
 
 ## Before You Create Plans on Insighto
@@ -60,58 +66,69 @@ Ensure you've set up your Products and Prices in your Stripe account—these are
 
 # Setup Product & Prices on Stripe
 
-### 8  
-Click on **Product catalog** on Stripe Dashboard
+ 8. Click on **Product catalog** on Stripe Dashboard
 
-### 9  
-Click on **Add a product**
+![alt](images/Stripe/8.png)
 
-### 10  
-### Name Your Plan in Stripe
+ 9. Click on **Add a product**
+
+![alt](images/Stripe/9.png)
+
+ 10. Name Your Plan in Stripe
 
 Add a clear and recognizable name for your plan while setting up the product and pricing in Stripe.  
 If you're configuring a free plan, you can name it “Free Plan” — otherwise, choose a name that reflects the offering you're creating.
 
 📝 This name will appear to your customers, so use something descriptive and easy to understand.
 
-### 11  
-### Add Plan Description
+![alt](images/Stripe/10.png)
+
+ 11.  Add Plan Description
 
 In the plan description field, simply mention the pricing details—this helps communicate the cost clearly to your customers.  
 For example: $0/month, $49/month, etc.
 
 💡 Keep it short and focused on the price. Feature details can be added within Insighto during plan setup.
 
-### 12  
-Select **Recurring**
+![alt](images/Stripe/11.png)
 
-### 13  
-### Select Currency
+ 12.  Select **Recurring**
+
+![alt](images/Stripe/12.png)
+
+ 13.  Select Currency
 
 Choose the currency you want to bill your customers in from the dropdown menu.  
 For this tutorial, we’re selecting USD ($).
 
 🌍 You can choose other currencies based on your customer base and business needs.
 
-### 14  
-### Set the Price
+![alt](images/Stripe/13.png)
+
+ 14.  Set the Price
 
 For the Free Plan, set the price to $0 to ensure it's offered at no charge to your customers.
 
 💡 If you’re setting up other plans, enter the appropriate amount here (e.g., $49/month) based on your pricing structure.
 
-### 15  
-Click on **More pricing options**
+![alt](images/Stripe/14.png)
 
-### 16  
-### Define a Unique Lookup Key
+ 15.  Click on **More pricing options**
+
+![alt](images/Stripe/15.png)
+
+ 16.  Define a Unique Lookup Key
 
 Add a Lookup Key for the price you're creating. This key must be unique for every price you set up to help identify and map it correctly in Insighto.
 
 📝 Make sure to use a simple, consistent naming convention (e.g., `free_plan_0usd`, `basic_plan_49usd`) to keep things organized.
 
-### 17  
-Click on **Next**
+![alt](images/Stripe/16.png)
 
-### 18  
-Click on **Add product**
+ 17.  Click on **Next**
+
+![alt](images/Stripe/17.png)
+
+ 18.  Click on **Add product**
+
+![alt](images/Stripe/18.png)
