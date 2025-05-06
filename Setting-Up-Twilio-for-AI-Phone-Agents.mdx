@@ -1,151 +1,34 @@
----
-title: "Setting Up Twilio for AI Phone Agents"
-description: "Twilio is a powerful cloud communications platform that allows you to integrate AI-powered phone agents for both inbound and outbound calls. This guide walks you through the entire setup process—from account creation to AI-driven call configuration."
----
+# Deploy Your Voice Assistant on Twilio
 
-## 📌 Prerequisites
+Connect your Insighto voice assistant to a Twilio phone number and let users interact via real phone calls.  
+This guide will walk you through setting up Twilio, integrating it with Insighto, and deploying your assistant.
 
-Before getting started, make sure you have:
-
-- ✅ A valid email address and phone number (for Twilio verification)
-- ✅ A credit card (for purchasing a Twilio number, if needed)
-- ✅ Access to [Insighto.ai](https://insighto.ai), where AI-powered calls are configured
-
-> 🚨 **Note for Free Twilio Accounts**\
-> Free Twilio accounts have restrictions, including requiring verification of outbound phone numbers.\
-> [View Twilio Free Account Limitations →](https://www.twilio.com/docs/usage/tutorials/how-to-use-your-free-trial-account)
+> ☁ Ideal for users who want to enable call-based interactions using Twilio.
 
 ---
 
-## Step 1: Create and Set Up a Twilio Account
+## 📞 Twilio Setup Process
 
-### 🔹 1.1 Sign Up for Twilio
+### 1. Sign Up on Twilio
 
-1. Visit [Twilio’s Sign-Up Page](https://www.twilio.com/try-twilio).
-2. Enter your details and create an account.
-3. Verify your email address.
-4. Enter your phone number and verify via SMS.
+If you're new to Twilio, click **Sign Up** on the login page to create a new account.
 
-### 🔹 1.2 Retrieve Your API Credentials
-
-Your API credentials are required to integrate Twilio with Insighto.ai.
-
-1. Log in to the [Twilio Console](https://www.twilio.com/console)
-2. Click your account name (top right)
-3. Select **API Keys & Tokens**
-4. Scroll to the **Live Credentials** section
-5. Copy your:
-   - **Account SID**
-   - **Auth Token**
-
-> ⚠️ Keep your Auth Token secure—it's used for authentication.
+> 🔄 Already have an account? Skip to Step 3.
 
 ---
 
-## Step 2: Get a Twilio Phone Number
+### 2. Complete the Sign-Up Process
 
-To use Twilio for AI-powered calls, you need a number that supports voice.
-
-### 🔹 2.1 Purchase a Twilio Number
-
-1. Go to the [Twilio Phone Number Console](https://www.twilio.com/console/phone-numbers/incoming).
-2. Click **“Buy a Number”**
-3. Filter by:
-   - Country
-   - Voice/SMS/MMS capabilities
-4. Choose a number that supports **Voice**
-5. Click **Buy** and confirm the purchase
-
-> 💡 **Already have a number?**\
-> You can port it or forward calls to a Twilio number.\
-> [Twilio Porting Guide →](https://www.twilio.com/docs/phone-numbers/porting)
+Fill in your details on the sign-up page and click **Continue** to finish creating your account.
 
 ---
 
-## Step 3: Connect Twilio to Insighto.ai
+### 3. Log In to Your Twilio Account
 
-### 🔹 3.1 Add Twilio Credentials to Insighto.ai
+Enter your credentials, and access your dashboard.
 
-1. Log in to your **Insighto.ai Dashboard**
-2. Go to **Settings → Channels → Twilio**
-3. Click **Set up** under Twilio integration
-4. Choose one of the following:
+✅ Once logged in, you'll land on the Twilio Console homepage.
 
-#### ➕ Create a New Twilio Account:
-
-- Click **Create New**
-- Provide a Name
-- Input your **Account SID** and **Auth Token**
-
-#### 🔁 Use an Existing Account:
-
-- Select an account from the dropdown
-- Click **Submit** to save
-
----
-
-## Step 4: Configure Twilio for AI-powered Calls
-
-### 🔹 4.1 Set Up AI Call Settings
-
-1. Navigate to **AI Agents → Widget**
-2. Configure the following:
-
-- **Provider:** Select Twilio
-- **Widget Type**
-- **Name & Description**
-- **Maximum Call Duration (in seconds)**
-- **Twilio Account** from Step 3
-- **Twilio Phone Number** to assign to the AI Assistant
-
-1. Click **Submit**
-
-✅ Insighto.ai will auto-configure Twilio for AI-powered calls.
-
----
-
-## Step 5: Test Your AI Phone Agent
-
-### 🔹 5.1 Perform a Test Call
-
-1. Dial your assigned Twilio number
-2. Confirm the AI Voice Agent:
-
-- Answers the call
-- Follows your script or automation
-
-> ❌ If it doesn't work as expected:
->
-> - Check **Twilio Call Logs**:\
->   Go to Twilio Console → **Voice Calls**
-> - Confirm voice support on the Twilio number
-> - Double-check the integration settings in **Insighto.ai**
-
----
-
-## Step 6: Deploy and Optimize
-
-### 🔹 6.1 Monitor and Improve AI Call Performance
-
-- ✅ **Check Call Analytics**:\
-  Use Twilio’s Call Logs & Insights to monitor performance
-- ✅ **Optimize AI Responses**:\
-  Refine scripts and leverage NLP to improve call flow
-
----
-
-## 🎉 Congratulations\! Your AI Phone Agent is Ready\!
-
-You have successfully:
-
-- ✅ Created and configured a Twilio account
-- ✅ Purchased a Twilio phone number
-- ✅ Integrated Twilio with Insighto.ai
-- ✅ Set up and tested your AI Voice Agent
-
----
-
-## 🚀 Next Steps
-
-- 📱 **Add SMS support** for customer queries
-- 📞 **Enable AI-driven voicemail** for missed calls
+> ⚠ **Important: Upgrade Your Twilio Account**  
+New Twilio accounts start on a free trial, which may prevent your voice assistant from working properly after deployment.  
+To avoid issues, it's recommended to verify and upgrade your account before
