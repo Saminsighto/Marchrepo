@@ -1,88 +1,162 @@
-# 📚 How to Create and Manage Data Sources in Insighto.ai
+# 📚 Connect a Data Source to Your Assistant
 
-Learn how to add, manage, and connect Data Sources to your AI Voice Agent in Insighto.ai.
-
----
-
-## 🚀 What Are Data Sources?
-
-**Data Sources** power your AI Voice Agent with relevant knowledge from PDFs, websites, text, and CSVs. Once added, your assistant can reference this information to answer user queries intelligently.
+Add knowledge to your assistant by uploading documents, scraping websites, or pasting raw content — so it can answer queries accurately based on your data.
 
 ---
 
-## 📘 Step-by-Step: Add a Data Source
+   1. Click on Data Sources
 
-1. **Navigate to AI Agents**  
-   Go to the **AI Agents** section from the sidebar.
-
-2. **Open Data Sources Tab**  
-   Click the **Data Sources** tab in the top menu.
-
-3. **Click Add Data Source**  
-   - Choose a **Data Source Type** (PDF, HTTP, Text Blob, or CSV).  
-   - Enter a **name** and **description** for easy reference.  
-   - Click **Submit** to start extraction and indexing.
-
-4. **Track the Status**  
-   You can monitor the progress in real-time in the status table.
 
 ---
 
-## 📂 Supported Data Source Types
-
-| Type                | Description                                                                 |
-|---------------------|-----------------------------------------------------------------------------|
-| **PDF**             | Upload one or multiple PDF files.                                           |
-| **HTTP (Website)**  | Crawl and scrape content from a website (default: 100 pages). Use [Glob format](#) to include/exclude URLs. |
-| **Text Blob**       | Paste plain text content directly.                                          |
-| **CSV (Text + Image)** | Upload CSV files with text and image references to build a rich Knowledge Base. |
+   2. Click on Create Data Source
 
 ---
 
-## 🗂 Managing Files in a Data Source
+   Available Options to Add Your Knowledge Base
 
-To manage files in an existing data source:
+Insighto supports multiple formats to help you upload or link your assistant's knowledge:
 
-1. Go to **AI Agents > Data Sources**.
-2. Under the **Operations** column, click **Files**.
-3. In the dialog:
-   - Click **Delete** to remove a file.
-   - Click **Add** to upload new files.
+✅ PDF Upload – Upload documents like policy guides, manuals, or help docs  
+🌐 Website Scraper (HTTP) – Provide a website URL for the AI to crawl and specify the maximum number of pages (default Value: 100)  
+📝 Text Blob – Manually paste raw text  
+📊 CSV Upload – Upload a two-column CSV file where one column holds text and the other can include image URLs (great for visual FAQs or catalogs)
 
----
-
-## 🌐 Using Website Links and PDFs Together
-
-You can combine multiple data source types—like PDFs and website links—to build a more comprehensive knowledge base for your assistant.
-
-### Steps to Combine Sources
-
-1. Go to **AI Agents > Data Sources** and click **Add Data Source**.
-2. Select **PDF** or **HTTP** as the type.
-3. Add each source individually with a clear name and description.
-4. Under the **Operations** column, click **Upload** to add documents (e.g., PDFs).
-5. To check which assistants are linked to a data source, click **Assistants** under the **Operations** column.
-6. To connect a data source to an assistant:
-   - Go to the **Assistants** tab.
-   - Click **View Data Sources** under **Operations**.
-   - Check the box to link the desired data source.
+📌 In this guide, we’ll walk you through uploading a PDF as your data source.
 
 ---
 
-## 🆔 Copy a Data Source ID
+   3.  Upload Your PDF File
 
-To copy a data source ID for integration or support:
+Select PDF as the data source type, then:
 
-1. Go to **AI Agents > Data Sources**.
-2. Click **Copy Data Source ID** under the **Operations** column.
-3. The ID will be copied to your clipboard.
+Enter a name and brief description for your data source  
+Click Upload PDF and select your file  
+Hit Submit to save the data source.
 
-> 💡 Use this ID for integrations, API calls, or referencing specific data sources.
+📎 Tip: You can add multiple PDFs if you want to expand your assistant’s knowledge.
+
+Upload Your PDF File
 
 ---
 
-## ✅ You're All Set
+   4. Indexing in Progress 
 
-Your data sources are now active and connected. Your AI Voice Agent is ready to deliver more informed, accurate responses using the knowledge you’ve provided.
+---
 
-Need more help? Reach out to our support team anytime!
+   5. Data Source Ready to Use
+
+Once the status changes to Ready to use, your PDF is fully processed and can now be connected to your assistant.
+
+🚀 Let’s move ahead and link it to your voice assistant in the next step.
+
+✅ Data Source Ready to Use
+
+🎉 Data Source Created Successfully!  
+Your PDF data source is now ready. Let’s go ahead and connect it to your assistant so it can start using the information you’ve uploaded.
+
+---
+
+   6. Click on Assistants
+
+
+
+---
+
+   7. Click on Options
+
+
+
+---
+
+   8. Click on Edit Assistant
+
+
+
+---
+
+   9. Click on Data Sources
+
+
+
+---
+
+   10. Click on Assign Data Source
+
+
+
+---
+
+   11. Connect the Data Source
+
+Select the checkbox next to the PDF data source you want to connect.  
+Once selected, click Close to confirm and finish the connection.
+
+Connect the Data Source
+
+🎉 Congratulations! Your Data Source is Now Connected  
+You’ve successfully linked your PDF data source to the assistant.  
+To save these changes, click Save & Exit.
+
+🔗 Once saved, your assistant will be ready to use the new knowledge.
+
+---
+
+# 📂 Add Data Source: HTTP, CSV or Text Blob  
+ 
+
+In addition to uploading a PDF, you can also connect your assistant to a CSV file or Text Blob or Scraped data from website.  
+Choose the method that best fits your data
+
+---
+
+   12. HTTP Type Data source
+
+Provide a website base URL for the AI to crawl and specify the maximum number of pages (default: 100).
+
+Glob Format – You can also include or exclude specific URLs using the Glob format.  
+Click here to learn more about Glob format.
+
+HTTP Type Data source
+
+---
+
+   13. Text Blob Data Source
+
+Copy and paste raw text content from any source.
+
+Text Blob Data Source
+
+---
+
+   14. CSV ( Text + Image) Data Source
+
+Upload a CSV file containing both text and image references to enhance the Knowledge Base.
+
+CSV ( Text + Image) Data Source
+
+---
+
+# 🛠️ Troubleshooting & FAQs  
+ 
+
+**Data source status shows "Failed"**  
+This can happen if the format of the uploaded file is incorrect or the website crawler didn’t complete the indexing. In such cases, only a few pages may be crawled.  
+**Solution:** Delete the data source and upload it again.
+
+**Unable to delete the data source**  
+If a data source is connected to an assistant, the delete option will not be visible.  
+**Solution:** First disconnect it from any assistant it's assigned to.
+
+**What is the word count?**  
+This indicates the total number of words in the uploaded data source. Each plan has certain word count limits. You can check your usage in the Billing & Usage section of your account.
+
+**I want to add another file to an existing data source**  
+You can either create a new data source or upload another file to the existing one.  
+**Note:** Ensure the file is of the same type (e.g., add a PDF to an existing PDF data source).
+
+**Will the data get automatically updated after crawling a website?**  
+No, crawled data is static. If the content on the website changes, you will need to manually recrawl it to update the data.
+
+**I want to connect to a dynamic database**  
+Use the **Custom Tools** option under **Tools & Integrations** to set up dynamic data connections via API.

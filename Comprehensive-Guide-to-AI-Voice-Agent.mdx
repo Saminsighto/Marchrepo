@@ -1,165 +1,111 @@
----
-title: "📞 AI Voice Agent"
-description: "By the end of this guide, you'll have an AI Voice Agent fully configured to receive or make calls to your users."
----
+# Create First Voice AI Agent in Insighto.ai
 
-## 🧠 Understanding the Three Core Components of an AI Voice Agent
-
-Every AI Voice Agent is built on three key elements:
-
-- 🧾 **Knowledge Base** – The foundation of your AI Agent, providing the information it uses to answer user queries.
-- 🧠 **Assistant (The Brain)** – The AI logic that processes user input and generates intelligent responses.
-- 📱 **Widget** – The interface/phone number users interact with on your website to communicate with your AI Voice Agent.
-
-This guide will walk you through each step in detail to ensure you can easily create and optimize your AI Voice Agent.
-
-## 🧱 Step 1: Preparing Your Knowledge Base
-
-Your AI Voice Agent relies on a Knowledge Base to accurately respond to user queries. A Knowledge Base consists of one or more **Data Sources** that feed information into the Assistant.
-
-### 🗂️ How to Create a Data Source
-
-Follow these steps to create a Data Source for your AI Voice Agent:
-
-1. Navigate to the **"AI Agents"** section from the sidebar.
-2. Click on **"Add Data Source."**
-3. Select a **Data Source Type** from the dropdown menu and provide a name and description for reference.
-
-### 📄 Supported Data Source Formats
-
-Your AI Voice Agent supports the following Data Source types:
-
-- 📄 **PDF** – Upload one or multiple PDF files.
-- 🌐 **HTTP (Website Crawl or scrape data from website)** – Provide a website URL for the AI to crawl and specify the maximum number of pages (default: 100).
-- ✴️ **Glob Format** – You can also include or exclude specific URLs using the Glob format. [Click here to learn more about Glob format.](#)
-- 📝 **Text Blob** – Copy and paste raw text content from any source.
-- 📊 **CSV (Text \+ Image)** – Upload a CSV file containing both text and image references to enhance the Knowledge Base.
-
-### ✅ Finalizing the Data Source:
-
-- Click the **"Submit"** button to initiate the crawling, extraction, and indexing process.
-- You can track the progress in the table, where the Data Source's status will update in real-time.
-- Once the process is complete, your Data Source will be fully prepared and ready for use.
-
-🎉 Your Knowledge Base is now prepared and ready to power the AI Assistant.
+Build a simple phone assistant and deploy it on your website using the WebCall widget.  
+No knowledge base or tools for now — just a quick way to get started.
 
 ---
 
-## 🤖 Step 2: Setting Up Your AI Assistant
+## 1. Log in to your Insighto.ai account
 
-The Assistant is the core intelligence of your AI Voice Agent. It processes user queries, retrieves relevant information, and generates appropriate responses.
-
-### 🛠️ Creating an AI Assistant
-
-1. Go to the **"Assistants"** section under AI Agents in the sidebar.
-2. Click **"Add an Assistant."**
-3. Select **"Phone"** as the Assistant Type.
-4. Provide a **Name** and **Description** to define the Assistant.
-
-### ⚙️ Configuring the AI Assistant
-
-#### 🧠 AI Model:
-
-Choose from the following LLMs (Large Language Models):
-
-- ⚡ **GPT-4o mini** – Optimized for efficiency and accuracy.
-- 🔄 **GPT-3.5-Turbo-0125** – A well-balanced model for cost and performance.
-- 🌟 **OpenAI o3-mini** – Offering enhanced capabilities.
-- 🚀 **DeepSeek R1 Distill Llama** – A lightweight alternative for faster responses.
-- 🧪 **(Beta) Groq Llama 3.3 70B** – A powerful beta model for advanced use cases.
-
-#### 💬 Prompt:
-
-The prompt defines the Assistant’s **personality, tone**, and **response accuracy**.\
-Use this to customize responses, enforce business rules, or define a fallback response.
-
-#### 🔄 Conversation Flow
-
-#### 🔊 Voice and Recognition Settings
-
-- 🌍 **Speech Recognition Language**: Choose the primary language for voice recognition.
-- 🗣️ **Voice Selection**:
-  - Regular Voices
-  - Cartesia Voices
-  - Eleven Labs Voices
-
-#### 🎚️ Fine-Tuning Options:
-
-- 🕐 **Silence Wait Time**: Adjust how long the AI waits before prompting the user again.
-- ⚡ **Interruption Time**: Set the AI’s response speed based on when the user stops speaking.
-- 🎧 **Recognizer Confidence**: Modify sensitivity to background noise for improved accuracy.
-
-#### 🧩 Tools Integration
-
-Connect additional tools in this section if needed to enhance your AI Assistant’s capabilities.
+Log in to your Insighto.ai account.
 
 ---
 
-### 📚 Data Source:
+## Start with Creating Assistant
 
-In the **Data Source** tab, link your data to power your AI Assistant.
+### 9 Steps
 
-#### 🔗 Steps to Assign a Data Source:
+### 2. From the left panel, click on Assistants
 
-1. Click on **"Assign Data Source."**
-2. Select the Data Sources you want to include in your Assistant’s Knowledge Base.
-
-✅ Once assigned, your AI Assistant will use this data to provide accurate responses to users.
+From the left panel, click on **Assistants**.
 
 ---
 
-### 🛠️ Advanced Settings:
+### 3. Click the "Create Assistant" button
 
-Take control of your AI Phone Agent with these advanced customization options:
-
-- 📴 **Auto-Disconnect**: Automatically disconnect calls if they go to voicemail.
-- 📝 **Forms Integration**: Connect a form by clicking on **"Assign Form"** under the Forms section. This allows your AI Assistant to collect user details efficiently.
-- 🔄 **CRM Sync (Currently Supports GHL)**: Sync AI conversations directly with your CRM.
-- 📧 **Email Summaries**: Get automatic conversation summaries sent directly to your email.
-- 🔗 **Webhook Integration**: Connect an existing webhook or create a new one to automate data flow between your AI Assistant and other platforms.
+Click the **Create Assistant** button.
 
 ---
 
-## 🌐 Step 3: Deploying a Widget
+### 4. Enter a Name & Description for your assistant
 
-A **Widget** allows users to interact with your AI Voice Agent on your website.
-
-1. Navigate to the **"Widgets"** section in the AI Agents menu.
-2. Click **"Add a Widget."**
-3. Select the **Provider** (e.g., Twilio, Plivo, Insighto etc.).
-4. Choose the **Widget Type** and provide a **Name** and **Description** for easy reference.
-5. Select the **Assistant** you created to link it to the widget.
-
-📞 For Voice Assistants, you have multiple deployment options:
-
-- [🔧 Twilio Account Setup → Click Here for Guide](#)
-- [📲 Embed Call Widget → Click Here for Guide](#)
-- [📉 GHL Missed Call Widget → Click Here for Guide](#)
-- [💻 Web Calling Widget → Click Here for Guide](#)
-- [📡 Plivo Integration → Click Here for Guide](#)
+Enter a **Name** & **Description** for your assistant.
 
 ---
 
-### 📞 Setting Up Twilio for AI-powered Calls
+### 5. Set the Assistant Type to Phone
 
-1. Select the **Twilio** option.
-2. Choose the **Widget Type** and provide a **Name and Description**.
-3. 🕐 Add **Max Call Duration** (seconds).
-4. 📱 Select **Twilio account and phone number** to assign to the AI Assistant.
-5. Click **"Submit."** Insighto.ai will automatically configure Twilio.
-
-📞 **Test your AI Voice Agent**: Call the assigned phone number to verify functionality.
+Set the **Assistant Type** to **Phone**.
 
 ---
 
-## 🎉 Conclusion
+### 6. Go to Model Tab
 
-**Congratulations\!** Your AI Voice Agent is now fully set up and ready to interact with users.
+Under this, the assistant is set to **Prompt** by default.
 
-### 🧾 Key Takeaways:
+- The default LLM is **GPT-3.5**, but you can choose another model from the dropdown.
+- Adjust the **temperature** if needed (higher = more creative, lower = more precise).
 
-✅ **Knowledge Base**: Add structured data sources (PDFs, websites, text, CSV).\
-✅ **AI Assistant**: Customize responses, optimize recognition, and sync conversations.\
-✅ **Widget Deployment**: Use Twilio or other integrations to connect your AI Agent to phone calls.
+In the **Prompt** box, enter a simple instruction like:  
+> “Greet the user and ask how you can assist them today.”  
+or add your prompt according to your use-case.
 
-💬 **Need help?** Contact our support team for further assistance\!
+> 💡 You can update this prompt anytime based on your assistant’s role.
+
+---
+
+### 7. Click on Voice Tab
+
+Click on **Voice Tab**.
+
+---
+
+### 8. Configure Voice Settings
+
+In the **Voice** tab:
+
+- **Recognizer Language** is set to English by default.  
+  To use another language, remove English and select your preferred language from the list.
+- **AI Voice** is set to Ava by default.  
+  You can choose another voice from the dropdown.
+
+Additional options:
+- **Who speaks first** – Decide whether the assistant or user starts the conversation.
+- **Silence timeout** – Time the assistant waits before responding if the user is silent.
+- **Silent message** – What the assistant says if silence is detected.
+- **Interruption time** – Controls when the assistant can interrupt the user.
+- **Recognizer confidence threshold** – Adjust how strictly the assistant interprets voice input.
+
+> 💡 These settings help fine-tune the assistant’s responsiveness and user experience.
+
+---
+
+✅ **Next Steps Unlocked After Creation**  
+The Tools, Data Sources, and Advanced tabs will become accessible once you create the assistant.  
+These features will be covered in separate guides. For now, let’s focus on building and testing a simple assistant.
+
+---
+
+### 9. Click on Save & Exit
+
+Click on **Save & Exit**.
+
+---
+
+### 10. 🎉 Congratulations!
+
+Your first AI voice assistant is now configured.
+
+> What’s next? Let’s see how to deploy it on your website and start testing using the Web Call widget.
+
+---
+
+## Creating a Widget
+
+### 0 Steps
+
+[app.insighto.ai](https://app.insighto.ai)
+
+### 9 Steps
+
+### 11. Click
