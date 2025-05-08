@@ -37,7 +37,12 @@
               "Call-Tool-Integration-with-Insighto.ai"
             ]
           },
-
+          {
+            "group": "Forms & Intent",
+            "pages": [
+              "Creating-Forms-and-Connect-them-with-Assistants"
+            ]
+          },
           {
             "group": "Agency",
             "pages": [
