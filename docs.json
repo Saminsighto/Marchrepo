@@ -25,12 +25,13 @@
             "group": "Widgets",
             "pages": [
               "Setting-Up-Twilio-for-AI-Phone-Agents",
-              "Embed-Call-Widget-Setup-Guide",
               "Creating-Your-Widget-to-Respond-to-GHL-Messages",
               "Creating-a-WhatsApp-Bot-with-Insighto.ai",
               "Setting-Up-the-Telegram-Widget-in-Insighto.ai",
-              "Setting-Up-the-Messenger-Widget"]},
+              "Setting-Up-the-Messenger-Widget",
               "Embedded-Form-Widget-with-Twilio-for-Instant-AI-Calls"
+              ]},
+              
               
           {
             "group": "Tools",
