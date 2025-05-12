@@ -14,6 +14,12 @@
         "tab": "Guides",
         "groups": [
           {
+            "group": " ",
+            "pages": [
+              "Insighto-Billing-Pay-As-You-Go" 
+                         ]
+          },
+          {
             
             "group": "Quick Starts",
             "pages": [
@@ -25,7 +31,6 @@
             "group": "Widgets",
             "pages": [
               "Setting-Up-Twilio-for-AI-Phone-Agents",
-              "Insighto-Billing-Pay-As-You-Go",
               "Setting-Up-the-Messenger-Widget",
               "Embedded-Form-Widget-with-Twilio-for-Instant-AI-Calls"
               ]},
