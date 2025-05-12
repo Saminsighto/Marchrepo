@@ -1,109 +1,211 @@
----
-title: "✨ Setting Up the Telegram Widget in Insighto.ai"
-description: "With Insighto.ai, you can integrate your chatbot Assistant directly into Telegram, allowing it to respond to messages from users in real time. This makes customer interactions smoother, faster, and more automated.
+Connect your Insighto voice assistant to a Twilio phone number and let users interact via real phone calls.  
+This guide will walk you through setting up Twilio, integrating it with Insighto, and deploying your assistant.
 
-This guide will walk you through the entire process of setting up a Telegram Widget."
----
-
-## 📋 Prerequisites
-
-Before you create the Telegram Widget, make sure you've completed the following:
-
-### ✅ 1. Set Up a Knowledge Base
-
-This stores the documents, FAQs, or help content that your AI Assistant will use to answer user questions.
-
-### ✅ 2. Create an AI Assistant
-
-This is the engine behind your chatbot. It uses your knowledge base to respond to user messages with accurate, context-aware answers.
-
-> 📘 Need help getting started?\
-> Follow our [step-by-step guide](#) on setting up your Knowledge Base and Assistant.
+> ☁ Ideal for users who want to enable call-based interactions using Twilio.
 
 ---
 
-## 🔧 Steps to Set Up the Telegram Widget
+## 📞 Twilio Setup Process
 
-### 1. Generate Your Telegram Bot Token
 
-Before creating the widget in Insighto.ai, you need a Telegram bot token:
+### 1. Sign Up on Twilio
 
-1. Open Telegram and search for [@BotFather](https://t.me/BotFather)
-2. Start a chat and use the `/newbot` command
-3. Follow the prompts to:
-   - Choose a name for your bot
-   - Choose a unique username (must end in `bot`, e.g., `support_assistant_bot`)
-4. After completion, you'll receive a **bot token**. Copy it — you’ll need it in the next step.
+If you're new to Twilio, click **Sign Up** on the login page to create a new account.
+
+> 🔄 Already have an account? Skip to Step 3.
+
+![alt](images/Twilio/1.png)
 
 ---
 
-### 2. Access the Widgets Section in Insighto.ai
+### 2. Complete the Sign-Up Process
 
-1. Log into your [Insighto.ai Dashboard](https://dashboard.insighto.ai)
-2. Navigate to **AI Agents \> Widgets**
-3. Click on **Add a Widget**
+Fill in your details on the sign-up page and click **Continue** to finish creating your account.
 
----
-
-### 3. Configure Your Telegram Widget
-
-Fill in the following details:
-
-- **Provider**: Select `Telegram`
-- **Widget Type**: Choose the type of interaction (e.g., `Telegram Bot`)
-- **Name**: Give your widget a clear, recognizable name (e.g., “Telegram Support Bot”)
-- **Description**: Add a brief internal description (optional)
-- **Telegram Tool Config**: Select the telegram configuration you created in the tool section.
+![alt](images/Twilio/2.png)
 
 ---
 
-### 4. Link Your Assistant
+### 3. Log In to Your Twilio Account
 
-- Select the **Assistant** you want to assign to this widget.
-- This Assistant will handle all Telegram interactions using the knowledge and tone you've configured.
+Enter your credentials, and access your dashboard.
 
----
+✅ Once logged in, you'll land on the Twilio Console homepage.
 
-### 5. Finalize and Submit
+> ⚠ **Important: Upgrade Your Twilio Account**  
+New Twilio accounts start on a free trial, which may prevent your voice assistant from working properly after deployment.  
+To avoid issues, it's recommended to verify and upgrade your account before proceeding.
 
-Click **Submit** to complete the setup. Once the widget is created:
-
-- Insighto.ai will start receiving and responding to messages sent to your Telegram bot.
-- Conversations will be visible in the Inbox and logged under the AI Agent linked to the widget.
+![alt](images/Twilio/3.png)
 
 ---
 
-## ✅ What’s Next?
+### 4. Copy Account SID and Auth Token
 
-After setup:
+On the Twilio Console homepage, locate your **Account SID** and **Auth Token**.  
+Copy and keep them handy — you'll need these to integrate Twilio with Insighto.
 
-- Test your bot by messaging it on Telegram
-- Ensure that your Assistant is responding correctly
-- Continue improving the Knowledge Base to enhance responses
+> 🔒 Treat these as sensitive credentials. Don't share them publicly.
 
----
-
-## 🚀 Benefits of Telegram Integration
-
-| Feature                   | Benefit                                     |
-| ------------------------- | ------------------------------------------- |
-| 💬 Direct Messaging       | Engage users on a channel they already use  |
-| 🤖 AI-Driven Responses    | Respond instantly, 24/7                     |
-| 📈 Centralized Management | View and manage all messages in Insighto.ai |
-| 🔄 Real-Time Sync         | Keep conversations up-to-date and fluid     |
+![alt](images/Twilio/4.png)
 
 ---
 
-## 🧪 Troubleshooting & Tips
+### 5. Buy a Twilio Phone Number
 
-| Issue                  | Solution                                                        |
-| ---------------------- | --------------------------------------------------------------- |
-| Bot not responding     | Verify that the token is valid and matches the Telegram bot     |
-| Wrong Assistant linked | Go back to the widget settings and select the correct Assistant |
-| Not receiving messages | Ensure your bot is active and accessible via Telegram           |
+Go to the **Phone Numbers** section in your Twilio Console and click **Buy a Number**.  
+Use filters to select your country and ensure the number has **Voice** capability.
+
+> 🔁 Already have a number? Refer to this guide to **Port your existing number on Twilio**.
+
+![alt](images/Twilio/5.png)
 
 ---
 
-## 📘 Need Help?
+✅ **Twilio Setup Complete — Final Checks Before Integration**
 
-If you have any questions or face any issues, reach out to [Insighto.ai Support](mailto:support@insighto.ai) or check our Help Center for more detailed articles.
+---
+
+
+### 6. Click on Tools & Integrations
+
+Click on **Tools & Integrations**
+
+![alt](images/Twilio/6.png)
+
+---
+
+### 7. Click on Twilio Set up
+
+Click on **Twilio Set up**
+
+![alt](images/Twilio/7.png)
+
+---
+
+### 8. Click on Create New
+
+Click on **Create New**
+
+![alt](images/Twilio/8.png)
+
+---
+
+### 9. Click on Submit
+
+- Provide a Name  
+- Input your **Account SID** and **Auth Token**  
+- Click on **Submit**
+
+---
+
+🔗 **Twilio Integration Complete**  
+Your Twilio account is now successfully connected to Insighto.  
+Let's move on to the final step — deploying your voice assistant on the Twilio number.
+
+![alt](images/Twilio/6.png)
+
+---
+
+### 10. Click on Widgets
+
+Click on **Widgets**
+
+![alt](images/Twilio/10.png)
+
+---
+
+### 11. Click on Create Widget
+
+Click on **Create Widget**
+
+![alt](images/Twilio/11.png)
+
+---
+
+### 12. Select Provider Type
+
+Select **Provider Type**
+
+![alt](images/Twilio/12.png)
+
+---
+
+### 13. Select Widget Type
+
+- Select the **Widget Type** as shown below  
+- Provide **Name** & **Description** of the Widget  
+- Click on **Next**
+
+![alt](images/Twilio/13.png)
+
+---
+
+### 14. Select the Assistant
+
+Select the **Assistant** from the dropdown and proceed
+
+![alt](images/Twilio/14.png)
+
+---
+
+### 15. Configure Twilio Widget
+
+In this step, set the behavior for your Twilio-powered voice assistant:
+
+- Enable Call Recording (optional) – Recordings will be available in your Twilio dashboard  
+- Set Maximum Call Duration in seconds (e.g., 300 for 5 minutes)  
+- Select Your **Twilio Account** from the dropdown  
+- Choose a **Phone Number** associated with that account  
+
+Once done, click **Finish** to complete deployment.
+
+![alt](images/Twilio/15.png)
+
+---
+
+### 16. Test Your Voice Assistant
+
+Call the Twilio number you just configured to test your AI voice assistant in action.  
+Make sure the conversation flows as expected based on your prompt and voice settings.
+
+---
+
+## 🛠️ Troubleshooting Tips
+
+<div style="border: 1px solid rgb(15, 15, 16); border-radius: 8px; overflow: hidden;">
+
+  <details style="border-bottom: 1px solid rgb(15, 15, 16); padding: 16px;">
+    <summary>Check the Logs Tab</summary>
+    <p style="margin-top: 8px;">
+      Go to the bottom-left corner of your Insighto dashboard where your name or email appears. Click it to open the settings menu, then select <code>System Logs</code>. Here, you'll find detailed logs and error messages to help identify any issues with your assistant.
+    </p>
+  </details> 
+
+  <details style="border-bottom: 1px solid rgb(15, 15, 16); padding: 16px;">
+    <summary>Ensure Twilio account is upgraded</summary>
+    <p style="margin-top: 8px;">
+      Free trial accounts may block live calls.
+    </p>
+  </details> 
+
+  <details style="border-bottom: 1px solid rgb(15, 15, 16); padding: 16px;">
+    <summary>Confirm voice routing is set to US1</summary>
+    <p style="margin-top: 8px;">
+      Confirm that voice routing is set to <code>US1</code> in your Twilio phone number settings.
+    </p>
+  </details> 
+
+  <details style="border-bottom: 1px solid rgb(15, 15, 16); padding: 16px;">
+    <summary>Verify Auth Token & SID</summary>
+    <p style="margin-top: 8px;">
+      Verify that the <code>Auth Token</code> and <code>SID</code> used in Insighto are correct.
+    </p>
+  </details>
+
+  <details style="border-bottom: 1px solid rgb(15, 15, 16); padding: 16px;">
+    <summary>Check call recordings and call status</summary>
+    <p style="margin-top: 8px;">Check call recordings and call status in your Twilio console</p>
+  </details> 
+
+</div>
