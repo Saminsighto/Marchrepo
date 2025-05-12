@@ -1,0 +1,69 @@
+
+Only pay as per your usage.
+
+Insighto.ai lets you maintain a wallet that you can top up with credits as needed. Each wallet comes preloaded with **$10 worth of credits for FREE!**
+
+---
+
+## 🔋 Wallet Consumption Rates
+
+Your wallet is charged based on your usage across different services.
+
+### 🎙 Voice (Azure Standard)
+- ¢6 ($0.06) per minute
+
+### 💬 Chatbot (gpt-3.5-turbo)
+- ¢1.5 ($0.015) per customer query
+
+> ⚠️ Note: The rates above reflect usage with the base model (gpt-3.5-turbo) and Azure's regular voice engine.
+
+---
+
+## 🧩 Voice Service Breakdown
+
+Voice service charges are composed of 4 components:
+
+| Component     | Cost per minute (¢) |
+|---------------|---------------------|
+| Transcription | 1                   |
+| LLM           | 1                   |
+| Voice         | 2                   |
+| Platform      | 2                   |
+| **Total**     | **6**               |
+
+Each component may use multipliers depending on which service or model you choose.
+
+---
+
+## 🔢 Voice Pricing Examples
+
+| Case                                | Multipliers (T, LLM, Voice, Platform) | Cost Breakdown (¢)       | Total (¢/min) |
+|-------------------------------------|----------------------------------------|---------------------------|---------------|
+| Regular LLM + Azure Voice           | 1, 1, 1, 1                             | 1 + 1 + 2 + 2             | 6             |
+| Regular LLM + ElevenLabs Voice      | 1, 1, 2.5, 1                           | 1 + 1 + 5 + 2             | 9             |
+| Regular LLM + Cartesia Voice        | 1, 1, 1.75, 1                          | 1 + 1 + 3.5 + 2           | 7.5           |
+| Regular LLM + PlayHT Voice          | 1, 1, 2.5, 1                           | 1 + 1 + 5 + 2             | 9             |
+| Regular LLM + Voice (Your Keys)     | 1, 1, 0, 1                             | 1 + 1 + 0 + 2             | 4             |
+| o3-mini + ElevenLabs Voice          | 1, 2, 2.5, 1                           | 1 + 2 + 5 + 2             | 10            |
+| o3-mini + Azure Voice               | 1, 2, 1, 1                             | 1 + 2 + 2 + 2             | 7             |
+| OpenAI Realtime (4o-mini)           | 0, 10, 0, 1                            | 0 + 10 + 0 + 2            | 12            |
+| OpenAI Realtime (4o)                | 0, 46, 0, 1                            | 0 + 46 + 0 + 2            | 48            |
+
+> ⏱ Voice usage is measured per second and prorated accordingly.
+
+---
+
+## 🤖 Chatbot Pricing
+
+Chatbots use only the LLM component. Your cost per customer query depends on the LLM model used.
+
+| LLM Model      | Multiplier | Cost per Query (¢) |
+|----------------|------------|---------------------|
+| gpt-3.5-turbo  | 1          | 1.5                 |
+| o3-mini        | 2          | 3.0                 |
+| gpt-4          | 20         | 30                  |
+| gpt-4o         | 10         | 15                  |
+
+---
+
+Would you like me to generate a visual infographic version of this pricing breakdown?
