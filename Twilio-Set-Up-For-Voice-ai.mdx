@@ -8,7 +8,7 @@ This guide will walk you through setting up Twilio, integrating it with Insighto
 ## 📞 Twilio Setup Process
 
 
-### 1. Sign Up on Twilio
+ 1. Sign Up on Twilio
 
 If you're new to Twilio, click **Sign Up** on the login page to create a new account.
 
@@ -18,7 +18,7 @@ If you're new to Twilio, click **Sign Up** on the login page to create a new acc
 
 ---
 
-### 2. Complete the Sign-Up Process
+ 2. Complete the Sign-Up Process
 
 Fill in your details on the sign-up page and click **Continue** to finish creating your account.
 
@@ -26,7 +26,7 @@ Fill in your details on the sign-up page and click **Continue** to finish creati
 
 ---
 
-### 3. Log In to Your Twilio Account
+ 3. Log In to Your Twilio Account
 
 Enter your credentials, and access your dashboard.
 
@@ -40,7 +40,7 @@ To avoid issues, it's recommended to verify and upgrade your account before proc
 
 ---
 
-### 4. Copy Account SID and Auth Token
+ 4. Copy Account SID and Auth Token
 
 On the Twilio Console homepage, locate your **Account SID** and **Auth Token**.  
 Copy and keep them handy — you'll need these to integrate Twilio with Insighto.
@@ -51,7 +51,7 @@ Copy and keep them handy — you'll need these to integrate Twilio with Insighto
 
 ---
 
-### 5. Buy a Twilio Phone Number
+ 5. Buy a Twilio Phone Number
 
 Go to the **Phone Numbers** section in your Twilio Console and click **Buy a Number**.  
 Use filters to select your country and ensure the number has **Voice** capability.
@@ -65,9 +65,9 @@ Use filters to select your country and ensure the number has **Voice** capabilit
 ✅ **Twilio Setup Complete — Final Checks Before Integration**
 
 ---
+###Twilio integration with Insighto.ai 
 
-
-### 6. Click on Tools & Integrations
+ 6. Click on Tools & Integrations
 
 Click on **Tools & Integrations**
 
@@ -75,7 +75,7 @@ Click on **Tools & Integrations**
 
 ---
 
-### 7. Click on Twilio Set up
+ 7. Click on Twilio Set up
 
 Click on **Twilio Set up**
 
@@ -83,7 +83,7 @@ Click on **Twilio Set up**
 
 ---
 
-### 8. Click on Create New
+ 8. Click on Create New
 
 Click on **Create New**
 
@@ -91,7 +91,7 @@ Click on **Create New**
 
 ---
 
-### 9. Click on Submit
+ 9. Click on Submit
 
 - Provide a Name  
 - Input your **Account SID** and **Auth Token**  
@@ -107,7 +107,9 @@ Let's move on to the final step — deploying your voice assistant on the Twilio
 
 ---
 
-### 10. Click on Widgets
+###Twilio Widget Integration
+
+ 10. Click on Widgets
 
 Click on **Widgets**
 
@@ -115,7 +117,7 @@ Click on **Widgets**
 
 ---
 
-### 11. Click on Create Widget
+ 11. Click on Create Widget
 
 Click on **Create Widget**
 
@@ -123,7 +125,7 @@ Click on **Create Widget**
 
 ---
 
-### 12. Select Provider Type
+ 12. Select Provider Type
 
 Select **Provider Type**
 
@@ -131,7 +133,7 @@ Select **Provider Type**
 
 ---
 
-### 13. Select Widget Type
+ 13. Select Widget Type
 
 - Select the **Widget Type** as shown below  
 - Provide **Name** & **Description** of the Widget  
@@ -141,7 +143,7 @@ Select **Provider Type**
 
 ---
 
-### 14. Select the Assistant
+ 14. Select the Assistant
 
 Select the **Assistant** from the dropdown and proceed
 
@@ -149,7 +151,7 @@ Select the **Assistant** from the dropdown and proceed
 
 ---
 
-### 15. Configure Twilio Widget
+ 15. Configure Twilio Widget
 
 In this step, set the behavior for your Twilio-powered voice assistant:
 
@@ -164,10 +166,21 @@ Once done, click **Finish** to complete deployment.
 
 ---
 
-### 16. Test Your Voice Assistant
+ 16. Test Your Voice Assistant
 
 Call the Twilio number you just configured to test your AI voice assistant in action.  
 Make sure the conversation flows as expected based on your prompt and voice settings.
 
 ---
+# 🛠️ Troubleshooting Tips
+
+If your voice assistant isn’t working as expected, refer to the following checks:
+
+| Issue                         | What to Do                                                                 |
+|------------------------------|-----------------------------------------------------------------------------|
+| System Logs                  | Go to the bottom-left of your Insighto dashboard → click your name → select System Logs to view error messages. |
+| Twilio Account Not Upgraded  | Ensure your Twilio account is upgraded; trial accounts may block live calls. |
+| Voice Routing Region         | Confirm that your Twilio number's Voice routing is set to US1.             |
+| Invalid Auth Token or SID    | Double-check that your Twilio Auth Token and SID entered in Insighto are correct. |
+| Call Diagnostics             | Check call recordings and call status inside your Twilio console.          |
 
