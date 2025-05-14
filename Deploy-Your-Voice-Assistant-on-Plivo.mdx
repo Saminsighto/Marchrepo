@@ -1,112 +1,182 @@
+# Deploy your Voice Assistant on Plivo
 
-Connect your Insighto voice assistant to a Plivo phone number and let users interact via real phone calls.
+Connect your Insighto voice assistant to a Plivo phone number and let users interact via real phone calls.  
+This guide will walk you through setting up Plivo, integrating it with Insighto, and deploying your assistant.
 
 > ☁ Ideal for users who want to enable call-based interactions using Plivo.
 
 ---
 
-1. Sign Up for a Plivo Account
+1.  Click on Request Trial on Plivo Website
 
-To get started:
+To get started with Plivo, you'll first need to sign up for a trial account.  
+Click on the “Request Trial” button—this will take you to the signup page.  
+Fill in the required details to create your account.
 
-i. Visit the Plivo website
-ii. Click the “Request Trial” button
-iii. Fill in your details and submit the form
-
-Once approved, you can access your Plivo dashboard.
-
- 
----
-
-   
-   
-2. Log In and Copy Your Credentials
-
-1. Go to the Plivo Login Portal and log in
-2. On your Console homepage, locate the Auth ID and Auth Token
-3. Copy and store these safely
-
-> 🔒 These are sensitive credentials. Do not share them publicly.
+![Request Trial](images/plivo/Plivo1.png)
 
 ---
 
-   3: Buy a Plivo Phone Number
+2.  Log In to Your Plivo Account
 
-1. Go to the Phone Numbers section in your Plivo Console
-2. Click Buy a Number
-3. Use filters to:
-   - Select your country
-   - Ensure the number supports Voice
+Once you’ve completed the sign-up process and your account is approved:
 
-[📘 Plivo Buying Guide](https://www.plivo.com/docs/numbers/guides/buy-a-number)
+- Go to the Plivo Login Portal.  
+- Enter your credentials and sign in to access your dashboard.
 
----
-
- 🔌  4: Integrate Plivo with Insighto
-
-1. In your Insighto dashboard, go to Tools & Integrations
-2. Locate and click Plivo Tool Setup
-3. Click Start New
-4. Provide a name for the integration
-5. Paste your Auth ID and Auth Token
-6. Click Submit
-7. On the next screen, click Save
-
-> 🧠 Note: A “Nothing to set up here” message is expected. This tool serves as a connection point only.
-
-✅ Your Plivo account is now connected to Insighto!
+![Login](images/plivo/Plivo2.png)
 
 ---
 
- 🚀  5: Deploy Your Voice Assistant
+3.  Copy Auth ID and Auth Token
 
-Now that Plivo is integrated, let’s deploy your assistant.
+On the Plivo Console homepage, locate your Account SID and Auth Token.  
+Copy and keep them handy — you’ll need these to integrate Plivo with Insighto.
 
-1. Navigate to the Widgets tab in Insighto
-2. Click Create Widget
+> 🔒 Treat these as sensitive credentials. Don’t share them publicly.
 
-# Select Provider and Widget Type
-
-3. Set Provider Type: Plivo
-4. Select Widget Type (e.g., Voice Assistant)
-5. Give it a Name and Description
-6. Click Next
-
-# Select Your Assistant
-
-7. Choose your prebuilt Assistant from the dropdown
-
-# Configure the Widget
-
-8. In the configuration screen:
-   - Enable Call Recording (optional)
-   - Set Maximum Call Duration (e.g., 300 seconds)
-   - Select your Plivo Integration
-   - Choose the desired Phone Number
-
-9. Click Finish to deploy your voice assistant
+![Auth Details](images/plivo/Plivo3.png)
 
 ---
 
- ✅  6: Test Your Voice Assistant
+4.  Buy a Plivo Phone Number
 
-Call the Plivo number you connected and test the assistant's voice and flow.
+- Go to the Phone Numbers section in your Plivo Console and click Buy a Number.  
+- Use filters to select your country and ensure the number has Voice capability.
 
-Make sure it responds accurately according to the prompt and voice settings.
+🔗 [Buy a Plivo Phone Number](https://www.plivo.com/docs/numbers/guides/buy-a-number)
 
----
-
- 🛠️ Troubleshooting Tips
-
-If something isn’t working as expected:
-
-- 🔍 Check Logs:
-  - Click your name or email (bottom-left of Insighto dashboard)
-  - Open Settings → System Logs for detailed assistant errors
-- 📈 Confirm your Plivo account is upgraded
-- 🔑 Ensure Auth ID and Token used in Insighto are correct
-- 🎧 Review call recordings and call statuses in the Plivo Console
+![Buy Number](images/plivo/Plivo4.png)
 
 ---
 
-Need help? Contact us anytime via support@insighto.ai or through your dashboard’s chat widget.
+✅ Plivo Setup Complete
+
+---
+
+5.  Click on Tools & Integrations
+
+
+![Tools](images/plivo/Plivo5.png)
+
+---
+
+6.  Click on Plivo Tool Setup
+
+
+![Tool Setup](images/plivo/Plivo6.png)
+
+---
+
+7.  Click on Start new
+
+
+![Start New](images/plivo/Plivo7.png)
+
+---
+
+8.  Click on Submit
+
+- Provide a Name  
+- Input your Auth ID and Auth Token  
+- Click on Submit
+
+![Submit](images/plivo/Plivo8.png)
+
+---
+
+9.  Click on Save
+
+On the next page, you may see a message that says “Nothing to set up here”—this is expected.  
+The tool doesn’t require additional configuration at this stage because it serves as a simple integration point.
+
+Click on Save
+
+![Save](images/plivo/Plivo9.png)
+
+---
+
+🔗 Plivo Integration Complete
+
+Your Plivo account is now successfully connected to Insighto.  
+Let’s move on to the final step — deploying your voice assistant on the Plivo number.
+
+---
+
+# Let's Deploy it  
+
+
+---
+
+10.  Click on Widgets
+
+![Widgets](images/plivo/Plivo10.png)
+
+---
+
+11.  Click on Create Widget
+
+
+![Create Widget](images/plivo/Plivo11.png)
+
+---
+
+12.  Select Provider Type
+
+
+![Provider Type](images/plivo/Plivo12.png)
+
+---
+
+13.  Select Widget Type
+
+Select the Widget Type as shown below  
+Provide Name & Description of the Widget  
+Click on Next
+
+![Widget Type](images/plivo/Plivo13.png)
+
+---
+
+14.  Select the Assistant
+
+Select the Assistant from the dropdown and proceed
+
+![Select Assistant](images/plivo/Plivo14.png)
+
+---
+
+15.  Configure Plivo Widget
+
+In this step, set the behavior for your Plivo-powered voice assistant:
+
+- Enable Call Recording (optional) – Recordings will be available in your Plivo dashboard  
+- Set Maximum Call Duration in seconds (e.g., 300 for 5 minutes)  
+- Select Your Plivo Account from the dropdown  
+- Choose a Phone Number associated with that account  
+
+Once done, click Finish to complete deployment.
+
+![Configure Widget](images/plivo/Plivo15.png)
+
+---
+
+16.  Test Your Voice Assistant
+
+Call the Plivo number you just configured to test your AI voice assistant in action.  
+Make sure the conversation flows as expected based on your prompt and voice settings.
+
+
+---
+
+# 🛠️ Troubleshooting Tips  
+
+If your voice assistant isn’t working as expected, here are a few ways to identify the issue:
+
+- Check the Logs Tab: Go to the bottom-left corner of your Insighto dashboard where your name or email appears.  
+  Click it to open the settings menu, then select System Logs.  
+  Here, you'll find detailed logs and error messages to help identify any issues with your assistant.
+
+- Ensure Plivo account is upgraded — Free trial accounts may block live calls  
+- Verify Auth Token & ID used in Insighto are correct  
+- Check call recordings and call status in your Plivo console
