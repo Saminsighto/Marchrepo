@@ -156,40 +156,11 @@ CSV ( Text + Image) Data Source
 
 # 🛠️ Troubleshooting & FAQs
 
-<Accordion type="multiple">
-
-<AccordionItem title='Data source status shows "Failed"'>
-This can happen if the format of the uploaded file is incorrect or the website crawler didn’t complete the indexing. In such cases, only a few pages may be crawled.  
-<br /><br />
-<strong>Solution:</strong> Delete the data source and upload it again.
-</AccordionItem>
-
-<AccordionItem title="Unable to delete the data source">
-If a data source is connected to an assistant, the delete option will not be visible.  
-<br /><br />
-<strong>Solution:</strong> First disconnect it from any assistant it's assigned to.
-</AccordionItem>
-
-<AccordionItem title="What is the word count?">
-This indicates the total number of words in the uploaded data source. Each plan has certain word count limits.  
-<br /><br />
-<strong>Tip:</strong> You can check your usage in the Billing & Usage section of your account.
-</AccordionItem>
-
-<AccordionItem title="I want to add another file to an existing data source">
-You can either create a new data source or upload another file to the existing one.  
-<br /><br />
-<strong>Note:</strong> Ensure the file is of the same type (e.g., add a PDF to an existing PDF data source).
-</AccordionItem>
-
-<AccordionItem title="Will the data get automatically updated after crawling a website?">
-No, crawled data is static.  
-<br /><br />
-<strong>Solution:</strong> If the content on the website changes, you will need to manually recrawl it to update the data.
-</AccordionItem>
-
-<AccordionItem title="I want to connect to a dynamic database">
-Use the Custom Tools option under Tools & Integrations to set up dynamic data connections via API.
-</AccordionItem>
-
-</Accordion>
+| Issue                                                   | Description                                                                                                                                                | Solution                                                                                                            |
+|----------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
+| Data source status shows "Failed"                        | This can happen if the format of the uploaded file is incorrect or the website crawler didn’t complete the indexing. Only a few pages may be crawled.     | Delete the data source and upload it again.                                                                        |
+| Unable to delete the data source                         | If a data source is connected to an assistant, the delete option will not be visible.                                                                      | First disconnect it from any assistant it's assigned to.                                                           |
+| What is the word count?                                  | Indicates the total number of words in the uploaded data source. Each plan has word count limits.                                                         | You can check your usage in the Billing & Usage section of your account.                                           |
+| Add another file to an existing data source              | You can either create a new data source or upload another file to the existing one.                                                                        | Ensure the file is of the same type (e.g., add a PDF to an existing PDF data source).                              |
+| Will the data update automatically after website crawl?  | No, crawled data is static.                                                                                                                                | If the website content changes, you must manually recrawl it to update the data.                                   |
+| Connect to a dynamic database                            | Useful for live, frequently updating data.                                                                                                                 | Use the Custom Tools option under Tools & Integrations to set up dynamic data connections via API.                |
