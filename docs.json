@@ -31,7 +31,7 @@
             "group": "Call Widgets",
             "pages": [
               "Twilio-Set-Up-For-Voice-ai",
-              "Deploy-Your-Voice-Assistant-on-Plivo",
+              "Plivo-Set-Up-For-Voice-ai",
               "Setting-Up-the-Messenger-Widget",
               "Embedded-Form-Widget-with-Twilio-for-Instant-AI-Calls"
               ]},
