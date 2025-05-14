@@ -24,13 +24,14 @@
             "group": "Quick Starts",
             "pages": [
               "Build-Your-First-Voice-Agent",
-              "Comprehensive-Guide-to-Setting-Up-Your-AI-Chat-Agent",
-              "how-to-create-and-manage-data-sources"
+              "Build-Your-First-Chat-Agent",
+              "Create-and-Manage-Data-Sources"
             ]},
           {
-            "group": "Widgets",
+            "group": "Call Widgets",
             "pages": [
               "Setting-Up-Twilio-for-AI-Phone-Agents",
+              "Deploy-Your-Voice-Assistant-on-Plivo",
               "Setting-Up-the-Messenger-Widget",
               "Embedded-Form-Widget-with-Twilio-for-Instant-AI-Calls"
               ]},
