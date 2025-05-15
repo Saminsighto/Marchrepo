@@ -37,7 +37,9 @@
           {
             "group": "Chat  Widgets",
             "pages": [
-              "Messenger-Widget"
+              "Messenger-Widget",
+              "Whatsapp-Guide"
+  
 
               ]},
 
@@ -47,7 +49,7 @@
           {
             "group": "Tools",
             "pages": [
-             
+             "Chat-Bot-Tool"
             ]
           },
           {
