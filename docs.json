@@ -30,23 +30,30 @@
           {
             "group": "Call Widgets",
             "pages": [
-              "Setting-Up-Twilio-for-AI-Phone-Agents",
-              "Deploy-Your-Voice-Assistant-on-Plivo",
-              "Setting-Up-the-Messenger-Widget",
-              "Embedded-Form-Widget-with-Twilio-for-Instant-AI-Calls"
+              "Twilio-Set-Up-For-Voice-ai",
+              "Plivo-Set-Up-For-Voice-ai",
+              "Embedded-Form-Widget-with-Twilio"
               ]},
+          {
+            "group": "Chat  Widgets",
+            "pages": [
+              "Messenger-Widget"
+
+              ]},
+
+          
               
               
           {
             "group": "Tools",
             "pages": [
-              "Call-Tool-Integration-with-Insighto.ai"
+             
             ]
           },
           {
             "group": "Forms & Intent",
             "pages": [
-              "Creating-Forms-and-Connect-them-with-Assistants"
+              "Insighto.ai-Forms"
             ]
           },
           {
