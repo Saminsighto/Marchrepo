@@ -38,7 +38,7 @@
             "group": "Chat  Widgets",
             "pages": [
               "Messenger-Widget",
-              
+              "Chat-Widget-Customization",
               "SMS-Widget"  
 
               ]},
@@ -51,7 +51,7 @@
             "pages": [
              "Chat-Bot-Tool",
              "Whatsapp-Guide",
-              "c         
+                  
             ]
           },
           {
