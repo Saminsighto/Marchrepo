@@ -32,7 +32,8 @@
             "pages": [
               "Twilio-Set-Up-For-Voice-ai",
               "Plivo-Set-Up-For-Voice-ai",
-              "Embedded-Form-Widget-with-Twilio"
+              "Embedded-Form-Widget-with-Twilio",
+            "GHL-Chat-Widget",
               ]},
           {
             "group": "Chat  Widgets",
@@ -55,6 +56,7 @@
              "Chat-Bot-Tool",
              "Whatsapp-Setup",
              "Google-Calender-Tool",
+              "GHL-Calendar-Tool",
              "SMS-Tool"                   
             ]
           },
