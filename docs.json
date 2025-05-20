@@ -33,7 +33,8 @@
               "Twilio-Set-Up-For-Voice-ai",
               "Plivo-Set-Up-For-Voice-ai",
               "Embedded-Form-Widget-with-Twilio",
-            "GHL-Chat-Widget",
+              "GHL-Missed-Call-Widget",
+            
               ]},
           {
             "group": "Chat  Widgets",
@@ -42,6 +43,7 @@
               "Whatsapp-Widget",
               "Instagram-Widget",
               "Telegram-Widget",
+              "GHL-Chat-Widget",
               "Chat-Widget-Customization",
               "SMS-Widget"  
 
