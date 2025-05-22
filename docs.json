@@ -64,9 +64,10 @@
             ]
           },
           {
-            "group": "Forms & Intent",
+            "group": "Features",
             "pages": [
-              "Insighto.ai-Forms"
+              "Insighto.ai-Forms",
+              "GHL-Missed-Call-Widget"
             ]
           },
           {
