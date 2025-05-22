@@ -9,16 +9,19 @@ Before you begin, ensure the following are set up:
 - A Phone Assistant is already created using any supported provider (Twilio, Plivo, or Telnyx).
 - The Make a Call App (Insighto) is installed and active in your GHL account.
 
-
 2. Edit any Existing Phone Assistant:
 
 Find the assistant you want to use. In the Operations tab under assistants, locate the three dots. Click on these dots to open a menu, then select the Edit Assistant option.
+
+![alt](images/ghl/2.png)
 
 3. Use Dynamic Variables in the Prompt
 
 - Navigate to the Models section. Under the Prompt field, type a forward slash (/) to open a popup menu. This menu allows you to select a GHL Tool Configuration from a dropdown list.
 - Once you've selected the desired configuration, all the variables from the connected GHL account will automatically appear. You can then select and insert these variables directly into your prompt.
 - This feature enables you to dynamically personalize prompts using real-time data from the GHL account — such as contact names, appointment times, or any other custom fields.
+
+![alt](images/ghl/3.png)
 
 4. Enable Contact & Conversation Sync
 
@@ -36,6 +39,8 @@ Enabling these functions ensures that:
 
 This integration allows you to centralize lead management and communication history within GHL — making it easy to track, follow up, and manage customer interactions all in one place.
 
+![alt](images/ghl/4.png)
+
 5. Select & Customize Fields to Sync
 
 
@@ -45,6 +50,7 @@ In the Advanced section, click on the "Select & Customize Fields to Sync" button
 
 - Map captured user data (like name, email, phone number, or custom responses) to corresponding fields in your GHL contact record
 
+![alt](images/ghl/5.png)
 
 6. Trigger a Call When a New Contact Is Created
 
@@ -58,6 +64,7 @@ Use the "Contact Created" trigger. This activates the workflow whenever a new co
 - Action:
 Add the "Make a Call" action from the Insighto app. This action will automatically place a call to the user using the data from the newly created contact.
 
+![alt](images/ghl/6.png)
 
 7.  Configure Call Action Details
 
@@ -84,6 +91,8 @@ Click “Save Action”
 Then click “Save” on the workflow to finalize everything
 
 🔐 Tip: Keep your API key secure and avoid sharing it in public or unsecured environments.
+
+![alt](images/ghl/7.png)
 
 8. Test the Workflow
 
