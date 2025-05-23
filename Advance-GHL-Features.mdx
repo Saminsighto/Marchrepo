@@ -1,110 +1,110 @@
-This guide will walk you through how to leverage dynamic variables from Go High Level (GHL) within prompts, enable CRM contact and conversation syncing, and trigger calls using the Make a Call App inside Insighto. These features are essential for building deeply integrated and responsive voice workflows with your AI assistant
 
-### Using GHL Dynamic Variables, CRM Sync  Make a Call App
+title: Using GHL Dynamic Variables, CRM Sync & Make a Call App
+description: Learn to use dynamic variables from GHL, sync contacts/conversations, and trigger calls using the Make a Call App.
+---
 
-1. Prerequisites – Assistant & App Setup:
+# Using GHL Dynamic Variables, CRM Sync & Make a Call App
+
+This guide will walk you through how to leverage dynamic variables from Go High Level (GHL) within prompts, enable CRM contact and conversation syncing, and trigger calls using the Make a Call App inside Insighto.
+
+These features are essential for building deeply integrated and responsive voice workflows with your AI assistant
+
+---
+
+1. Prerequisites: Assistant & App Setup
 
 Before you begin, ensure the following are set up:
 
-- A Phone Assistant is already created using any supported provider (Twilio, Plivo, or Telnyx).
-- The Make a Call App (Insighto) is installed and active in your GHL account.
+- ✅ A **Phone Assistant** is already created using Twilio, Plivo, or Telnyx  
+- ✅ The **Make a Call App** is installed and active in your GHL account
 
-2. Edit any Existing Phone Assistant:
+---
 
-Find the assistant you want to use. In the Operations tab under assistants, locate the three dots. Click on these dots to open a menu, then select the Edit Assistant option.
+2.  Edit Any Existing Phone Assistant
 
-![alt](images/ghl/2.png)
+Go to the **Operations** tab under Assistants.
 
-3. Use Dynamic Variables in the Prompt
+- Click the three-dot menu beside the assistant you want to use  
+- Select **Edit Assistant**
 
-- Navigate to the Models section. Under the Prompt field, type a forward slash (/) to open a popup menu. This menu allows you to select a GHL Tool Configuration from a dropdown list.
-- Once you've selected the desired configuration, all the variables from the connected GHL account will automatically appear. You can then select and insert these variables directly into your prompt.
-- This feature enables you to dynamically personalize prompts using real-time data from the GHL account — such as contact names, appointment times, or any other custom fields.
+![Step 2](images/ghl/2.png)
 
-![alt](images/ghl/3.png)
+---
+
+3.  Use Dynamic Variables in the Prompt
+
+1. Go to the **Models** section  
+2. In the **Prompt** field, type a forward slash `/` to open the variable menu  
+3. Choose a GHL Tool Configuration from the dropdown  
+4. Select and insert variables like contact name, appointment time, etc., directly into your prompt
+
+This allows your assistant to dynamically personalize prompts using real-time GHL data.
+
+![Step 3](images/ghl/3.png)
+
+---
 
 4. Enable Contact & Conversation Sync
 
+Navigate to the **Advanced** section and enable:
 
-Go to the Advanced section and enable the following two options:
-
-- **Contact Sync**
+- **Contact Sync**  
 - **Conversation Sync**
 
-Enabling these functions ensures that:
+This will:
 
-- A new contact is automatically created in your GHL (GoHighLevel) account after a conversation end.
+- Automatically create a contact in GHL after a conversation  
+- Push the chat transcript to that contact's profile in GHL
 
-- The entire chat transcript is pushed to that contact’s profile in GHL.
+![Step 4](images/ghl/4.png)
 
-This integration allows you to centralize lead management and communication history within GHL — making it easy to track, follow up, and manage customer interactions all in one place.
-
-![alt](images/ghl/4.png)
+---
 
 5. Select & Customize Fields to Sync
 
+Click the **Select & Customize Fields to Sync** button in the Advanced section.
 
-In the Advanced section, click on the "Select & Customize Fields to Sync" button. This allows you to:
+You’ll be able to:
 
-- Choose which fields from the conversation should be synced to GHL after the chat ends.
+- Choose which conversation fields should sync  
+- Map user data (name, phone, email, etc.) to GHL contact fields
 
-- Map captured user data (like name, email, phone number, or custom responses) to corresponding fields in your GHL contact record
+![Step 5](images/ghl/5.png)
 
-![alt](images/ghl/5.png)
+---
 
 6. Trigger a Call When a New Contact Is Created
 
-Now, switch over to your GHL Workflow.
+Go to your GHL **Workflows** and set up:
 
-For this guide, set up the following:
+- **Trigger**: Use the "Contact Created" trigger  
+- **Action**: Add "Make a Call" from the Insighto app
 
-- Trigger:
-Use the "Contact Created" trigger. This activates the workflow whenever a new contact is added in GHL.
+This will place a call to the newly created contact.
 
-- Action:
-Add the "Make a Call" action from the Insighto app. This action will automatically place a call to the user using the data from the newly created contact.
+---
 
-![alt](images/ghl/6.png)
+7. Configure Call Action Details
 
-7.  Configure Call Action Details
+Inside the **Make a Call** action:
 
-When setting up the "Make a Call" action in your GHL Workflow, you'll be prompted to fill in a few required fields:
+1. **Widget ID** – Find this in the Insighto Widgets section  
+2. **Phone Number Field** – Select the GHL field containing the contact’s number  
+3. **API Key** – Generate from Insighto (Settings → API Keys)
 
-1. Widget ID
+Paste your API key here to authenticate the call action.
 
-- This is the unique ID of the Phone Widget you created in Insighto.
-- You can find it in the Widgets section under the specific widget you intend to use for outbound calls.
+![Step 7](images/ghl/6.png)
 
-2. Phone Number Field
-
-- Select the GHL contact field that contains the phone number you want the AI to call (e.g., Mobile Phone, Custom Field).
-
-3. API Key
-
-- Generate this from Insighto → Settings → API Keys.
-- Copy and paste the key here to authenticate the integration.
-
-Once all fields are filled out:
-
-Click “Save Action”
-
-Then click “Save” on the workflow to finalize everything
-
-🔐 Tip: Keep your API key secure and avoid sharing it in public or unsecured environments.
-
-![alt](images/ghl/7.png)
+---
 
 8. Test the Workflow
 
-To make sure everything is working correctly:
+1. Create a new contact manually or via form  
+2. Your workflow should trigger automatically  
+3. The AI should initiate a call using the configured widget
 
-1. Create a new contact in your GHL account manually or through a form submission.
+Use a test number to confirm the call is successfully made.
 
-2. This should trigger the workflow you set up.
-
-3. The Insighto app will automatically initiate a call to the contact using the configured Phone Widget and details.
-
-If the call is placed successfully, your setup is complete!
-
-✅ Tip: Use a test phone number you have access to during this step to confirm that the call is being made and the workflow behaves as expected.
+![Step 8](images/ghl/7.png)
 
