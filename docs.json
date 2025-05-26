@@ -61,7 +61,8 @@
               "Freshdesk-Tool",
               "GHL-Calendar-Tool",
                "SMS-Tool",
-               "Custom-Tool"
+               "Custom-Tool",
+              "Zoho-Tool"
             ]
           },
           {
