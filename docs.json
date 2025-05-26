@@ -60,14 +60,18 @@
              "Google-Calender-Tool",
               "Freshdesk-Tool",
               "GHL-Calendar-Tool",
-             "SMS-Tool"                   
+               "SMS-Tool",
+               "Custom-Tool",
+              "Zoho-Calendar-Tool"
             ]
           },
           {
             "group": "Features",
             "pages": [
               "Insighto.ai-Forms",
-              "Advance-GHL-Features"
+              "Advance-GHL-Features",
+               "Intents",
+                "Webhooks"
             ]
           },
           {
