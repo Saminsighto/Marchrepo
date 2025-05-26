@@ -70,7 +70,8 @@
             "pages": [
               "Insighto.ai-Forms",
               "Advance-GHL-Features",
-               "Intents"
+               "Intents",
+                "Webhooks"
             ]
           },
           {
