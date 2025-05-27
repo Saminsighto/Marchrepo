@@ -64,7 +64,8 @@
                "Custom-Tool",
               "Zoho-Calendar-Tool",
                 "Paypal",
-               "Hubspot"
+               "Hubspot",
+              "Postgres-DB-Tool"
             ]
           },
           {
