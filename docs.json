@@ -76,7 +76,8 @@
                "Intents",
                 "Webhooks",
                 "Campaigns",
-                "Disconnect-and-Call-Transfer-Tool"
+                "Disconnect-and-Call-Transfer-Tool",
+               "Convo-Bridge-Tool"
             ]
           },
           {
