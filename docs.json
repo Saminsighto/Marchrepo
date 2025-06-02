@@ -75,7 +75,8 @@
               "Advance-GHL-Features",
                "Intents",
                 "Webhooks",
-                "Campaigns"
+                "Campaigns",
+                "Disconnect-and-Call-Transfer-Tool"
             ]
           },
           {
