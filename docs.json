@@ -64,7 +64,8 @@
                "Custom-Tool",
               "Zoho-Calendar-Tool",
                 "Paypal",
-               "Hubspot"
+               "Hubspot",
+              "Postgres-DB-Tool"
             ]
           },
           {
@@ -73,7 +74,10 @@
               "Insighto.ai-Forms",
               "Advance-GHL-Features",
                "Intents",
-                "Webhooks"
+                "Webhooks",
+                "Campaigns",
+                "Disconnect-and-Call-Transfer-Tool",
+               "Convo-Bridge-Tool"
             ]
           },
           {
