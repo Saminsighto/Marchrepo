@@ -16,7 +16,8 @@
           {
             "group": " ",
             "pages": [
-              "Insighto-Billing-Pay-As-You-Go" 
+              "Insighto-Billing-Pay-As-You-Go",
+              "Add-On"
                          ]
           },
           {
@@ -77,7 +78,7 @@
                 "Webhooks",
                 "Campaigns",
                 "Disconnect-and-Call-Transfer-Tool",
-               "Convo-Bridge-Tool",
+               "Convo-Bridge",
               "Consent-Form"
             ]
           },
