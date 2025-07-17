@@ -45,7 +45,6 @@
               "Instagram-Widget",
               "Telegram-Widget",
               "GHL-Chat-Widget",
-              "Chat-Widget-Customization",
               "SMS-Widget"  
 
               ]},
@@ -79,7 +78,8 @@
                 "Campaigns",
                 "Disconnect-and-Call-Transfer-Tool",
                "Convo-Bridge",
-              "Consent-Form"
+              "Consent-Form",
+              "Widget-Customization"
             ]
           },
           {
